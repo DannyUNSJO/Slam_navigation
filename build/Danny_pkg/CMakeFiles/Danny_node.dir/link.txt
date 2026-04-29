@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Danny_node.dir/src/Danny_node.cpp.o -o Danny_node 

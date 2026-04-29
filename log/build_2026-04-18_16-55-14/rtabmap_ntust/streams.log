@@ -1,0 +1,25 @@
+[2.080s] Invoking command in '/home/danny/ros2_ws/src/rtabmap_ntust': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_ntust/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_ntust build --build-base /home/danny/ros2_ws/build/rtabmap_ntust/build install --record /home/danny/ros2_ws/build/rtabmap_ntust/install.log --single-version-externally-managed install_data
+[2.917s] running egg_info
+[2.975s] writing ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/PKG-INFO
+[2.975s] writing dependency_links to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/dependency_links.txt
+[2.976s] writing entry points to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/entry_points.txt
+[2.976s] writing requirements to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/requires.txt
+[2.977s] writing top-level names to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/top_level.txt
+[3.059s] reading manifest file '../../build/rtabmap_ntust/rtabmap_ntust.egg-info/SOURCES.txt'
+[3.059s] adding license file 'LICENSE'
+[3.061s] writing manifest file '../../build/rtabmap_ntust/rtabmap_ntust.egg-info/SOURCES.txt'
+[3.061s] running build
+[3.062s] running build_py
+[3.062s] creating /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_ntust
+[3.062s] copying rtabmap_ntust/buildings_marker.py -> /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_ntust
+[3.063s] copying rtabmap_ntust/__init__.py -> /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_ntust
+[3.063s] running install
+[3.074s] running install_lib
+[3.108s] creating /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust
+[3.109s] copying /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_ntust/buildings_marker.py -> /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust
+[3.109s] copying /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_ntust/__init__.py -> /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust
+[3.110s] byte-compiling /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust/buildings_marker.py to buildings_marker.cpython-310.pyc
+[3.112s] byte-compiling /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust/__init__.py to __init__.cpython-310.pyc
+[3.112s] running install_data
+[3.112s] error: can't copy 'resource/rtabmap_ntust': doesn't exist or not a regular file
+[3.181s] Invoked command in '/home/danny/ros2_ws/src/rtabmap_ntust' returned '1': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_ntust/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_ntust build --build-base /home/danny/ros2_ws/build/rtabmap_ntust/build install --record /home/danny/ros2_ws/build/rtabmap_ntust/install.log --single-version-externally-managed install_data

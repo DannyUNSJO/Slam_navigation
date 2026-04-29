@@ -1,0 +1,41 @@
+[1.561s] Invoking command in '/home/danny/ros2_ws/src/rtabmap_webot': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_webot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_webot build --build-base /home/danny/ros2_ws/build/rtabmap_webot/build install --record /home/danny/ros2_ws/build/rtabmap_webot/install.log --single-version-externally-managed install_data
+[2.162s] running egg_info
+[2.192s] writing ../../build/rtabmap_webot/sg_package.egg-info/PKG-INFO
+[2.193s] writing dependency_links to ../../build/rtabmap_webot/sg_package.egg-info/dependency_links.txt
+[2.193s] writing entry points to ../../build/rtabmap_webot/sg_package.egg-info/entry_points.txt
+[2.193s] writing requirements to ../../build/rtabmap_webot/sg_package.egg-info/requires.txt
+[2.193s] writing top-level names to ../../build/rtabmap_webot/sg_package.egg-info/top_level.txt
+[2.241s] reading manifest file '../../build/rtabmap_webot/sg_package.egg-info/SOURCES.txt'
+[2.242s] adding license file 'LICENSE'
+[2.243s] writing manifest file '../../build/rtabmap_webot/sg_package.egg-info/SOURCES.txt'
+[2.244s] running build
+[2.244s] running build_py
+[2.244s] running install
+[2.251s] running install_lib
+[2.276s] running install_data
+[2.276s] creating /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package
+[2.276s] creating /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/resource
+[2.277s] copying resource/cartographer.lua -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/resource/.
+[2.277s] copying resource/nav2_params_iron.yaml -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/resource/.
+[2.277s] copying resource/default.rviz -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/resource/.
+[2.278s] copying resource/tiago_bringup_webots.urdf -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/resource/.
+[2.278s] copying resource/tiago_webots.urdf -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/resource/.
+[2.279s] copying resource/nav2_params.yaml -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/resource/.
+[2.279s] copying resource/ros2_control.yml -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/resource/.
+[2.279s] copying resource/slam_toolbox_params.yaml -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/resource/.
+[2.279s] copying resource/ros2_control_bringup.yml -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/resource/.
+[2.280s] copying package.xml -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package
+[2.280s] creating /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/launch
+[2.280s] copying launch/rtabmap_launch.py -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/launch
+[2.280s] creating /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/worlds
+[2.281s] copying worlds/default.wbt -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/worlds
+[2.281s] copying worlds/school_guide.wbt -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/worlds
+[2.281s] copying worlds/sg_NTUST.wbt -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/worlds
+[2.281s] copying worlds/sg_NTUST_HWH.wbt -> /home/danny/ros2_ws/install/rtabmap_webot/share/sg_package/worlds
+[2.282s] running install_egg_info
+[2.306s] removing '/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/sg_package-0.0.1-py3.10.egg-info' (and everything under it)
+[2.307s] Copying ../../build/rtabmap_webot/sg_package.egg-info to /home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/sg_package-0.0.1-py3.10.egg-info
+[2.308s] running install_scripts
+[2.400s] Installing buildings_marker script to /home/danny/ros2_ws/install/rtabmap_webot/lib/rtabmap_webot
+[2.401s] writing list of installed files to '/home/danny/ros2_ws/build/rtabmap_webot/install.log'
+[2.455s] Invoked command in '/home/danny/ros2_ws/src/rtabmap_webot' returned '0': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_webot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_webot build --build-base /home/danny/ros2_ws/build/rtabmap_webot/build install --record /home/danny/ros2_ws/build/rtabmap_webot/install.log --single-version-externally-managed install_data

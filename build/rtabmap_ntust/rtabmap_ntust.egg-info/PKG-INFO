@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rtabmap-ntust
+Version: 0.0.1
+Summary: rtabmap_ntust package for Webots simulation
+Maintainer: danny
+Maintainer-email: ddak3914@mail.com
+License: Apache-2.0
+License-File: LICENSE

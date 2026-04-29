@@ -1,0 +1,2077 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/pal_robotics/tiago_lite/protos/TiagoLite.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/geometries/protos/Rectangle.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/Building.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/Fence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/advertising_board/protos/AdvertisingBoard.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/StraightRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/RoadLine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/traffic/protos/TrafficCone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/traffic/protos/ParkingLines.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/plants/protos/PottedTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/traffic/protos/StreetLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Tree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/SimpleTree.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.009853886379371435 -0.9997942649058296 0.01772931991460543 5.16325166117905
+  position -11.961678896022143 -5.043874489697405 58.06743087335042
+}
+Background {
+  skyColor [
+    0.5 0.7 1
+  ]
+  backUrl [
+    "Images/ny.png"
+  ]
+  bottomUrl [
+    "Images/nz.png"
+  ]
+  frontUrl [
+    "Images/py.png"
+  ]
+  leftUrl [
+    "Images/nx.png"
+  ]
+  rightUrl [
+    "Images/px.png"
+  ]
+  topUrl [
+    "Images/pz.png"
+  ]
+  luminosity 2
+}
+TexturedBackgroundLight {
+}
+Solid {
+  children [
+    Shape {
+      appearance Appearance {
+      }
+    }
+  ]
+  name "Ground_solid"
+  boundingObject Plane {
+    size 1000000 1000000
+  }
+}
+Solid {
+  translation 0.37919 0.00540282 -1
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/ground_grass.png"
+          ]
+        }
+        textureTransform TextureTransform {
+          scale 10000 10000
+        }
+      }
+      geometry Plane {
+        size 100000 100000
+      }
+    }
+  ]
+  name "Ground_綠地"
+}
+Solid {
+  translation 19.0792 -3.8146 -0.1
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/柏油路.jpg"
+          ]
+        }
+        textureTransform TextureTransform {
+          scale 10 10
+        }
+      }
+      geometry Plane {
+        size 41 42
+      }
+    }
+  ]
+  name "Ground_柏油路"
+}
+DEF 體育館 Solid {
+  translation 6.85625 -15.1625 1.0019e-05
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Building {
+      translation -3.72779 7.9928 0.000167401
+      rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+      name "building(2)"
+      floorHeight 1.6
+      corners [
+        5 -7
+        5 -10
+        1 -10
+        1 -7
+      ]
+      wallAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/brick_building.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/bitumen.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofShape "flat roof"
+      roofHeight 1
+    }
+    DEF 體育館招牌 Solid {
+      translation -0.91507 -0.0195083 5.21
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/體育館.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    DEF 地板 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/白色顆粒.jpg"
+          ]
+        }
+      }
+    }
+  ]
+  name "solid(4)"
+}
+DEF 建築館 Solid {
+  translation 33.4384 2.30615 1.0019e-05
+  rotation 0 0 -1 -1.7016953071795866
+  children [
+    DEF 地板 Solid {
+      translation 2.07919 0.1654 0
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Images/白色顆粒.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 10000 10000
+            }
+          }
+        }
+      ]
+      name "地板"
+    }
+    DEF 建築 Solid {
+      translation 1.48 1.11 0
+      children [
+        Building {
+          translation -4.9178 3.5528 0.000148831
+          rotation 0.9718406755986648 2.329939222264088e-09 0.23563892134350556 4.30672e-06
+          name "building(2)"
+          floorHeight 2
+          corners [
+            8 -4
+            8 -6
+            3 -6
+            3 -4
+          ]
+          wallAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/colored_textures/office_building_C0C0C0.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofHeight 1
+        }
+        Building {
+          translation -4.9178 5.5728 0.000157279
+          rotation 0.9718406755986648 2.329939222264088e-09 0.23563892134350556 4.30672e-06
+          name "building(1)"
+          floorHeight 2
+          corners [
+            8 -4
+            8 -6
+            3 -6
+            3 -4
+          ]
+          wallAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/colored_textures/office_building_C0C0C0.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/colored_textures/bitumen_C0C0C0.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofShape "flat roof"
+          roofHeight 1
+        }
+      ]
+    }
+    DEF 建築館招牌 Solid {
+      translation 2.02493 -0.33953 7.45
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/建築館.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+  ]
+  name "solid(2)"
+}
+DEF 教學大樓 Solid {
+  translation 14.0177 8.42094 1.0029e-05
+  rotation 0 0 1 1.5708003061004252
+  children [
+    DEF 綠地&樹 Solid {
+      translation 1.2492 -2.8046 0
+      rotation 0 0 -1 -5.307179586466759e-06
+      children [
+        SimpleTree {
+          translation -2 -2.8 0
+          name "tree(6)"
+          type "oak tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        SimpleTree {
+          translation -0.1 -2.8 0
+          name "tree(1)"
+          type "oak tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        Solid {
+          translation -1.22078 -2.9046 0.1
+          rotation 0 0 1 -3.1415853071795863
+          children [
+            Shape {
+              appearance Appearance {
+                texture ImageTexture {
+                  url [
+                    "Images/ground_grass.png"
+                  ]
+                }
+              }
+              geometry Plane {
+                size 5 1
+              }
+            }
+          ]
+          name "solid(2)"
+        }
+      ]
+      name "綠地&樹"
+    }
+    DEF 綠地&樹 Solid {
+      translation 1.9892 -1.5046 0
+      rotation 0 0 1 1.5708
+      children [
+        SimpleTree {
+          translation -2.8 -2.8 0
+          name "tree(6)"
+          type "palm tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        SimpleTree {
+          translation -1.5 -2.8 0
+          name "tree(1)"
+          type "palm tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        Solid {
+          translation -2.21078 -2.9046 0.1
+          rotation 0 0 1 -3.1415853071795863
+          children [
+            Shape {
+              appearance Appearance {
+                texture ImageTexture {
+                  url [
+                    "Images/ground_grass.png"
+                  ]
+                }
+              }
+              geometry Plane {
+                size 3 1
+              }
+            }
+          ]
+          name "solid(2)"
+        }
+      ]
+      name "綠地&樹(4)"
+    }
+    DEF 綠地&樹 Solid {
+      translation 1.9892 3.2354 0
+      rotation 0 0 1 1.5708
+      children [
+        SimpleTree {
+          translation -2.8 -2.8 0
+          name "tree(6)"
+          type "palm tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        SimpleTree {
+          translation -1.5 -2.8 0
+          name "tree(1)"
+          type "palm tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        Solid {
+          translation -2.21078 -2.9046 0.1
+          rotation 0 0 1 -3.1415853071795863
+          children [
+            Shape {
+              appearance Appearance {
+                texture ImageTexture {
+                  url [
+                    "Images/ground_grass.png"
+                  ]
+                }
+              }
+              geometry Plane {
+                size 3 1
+              }
+            }
+          ]
+          name "solid(2)"
+        }
+      ]
+      name "綠地&樹(5)"
+    }
+    DEF 綠地&樹 Solid {
+      translation 1.2492 5.9854 0
+      rotation 0 0 -1 -5.307179586466759e-06
+      children [
+        SimpleTree {
+          translation -2 -2.8 0
+          name "tree(6)"
+          type "oak tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        SimpleTree {
+          translation -0.1 -2.8 0
+          name "tree(1)"
+          type "oak tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        Solid {
+          translation -1.22078 -2.9046 0.1
+          rotation 0 0 1 -3.1415853071795863
+          children [
+            Shape {
+              appearance Appearance {
+                texture ImageTexture {
+                  url [
+                    "Images/ground_grass.png"
+                  ]
+                }
+              }
+              geometry Plane {
+                size 5 1
+              }
+            }
+          ]
+          name "solid(2)"
+        }
+      ]
+      name "綠地&樹(2)"
+    }
+    DEF 綠地&樹 Solid {
+      translation 4.1192 -2.8046 0
+      rotation 0 0 -1 -5.307179586466759e-06
+      children [
+        SimpleTree {
+          translation 0.3 -2.8 0
+          name "tree(1)"
+          type "oak tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        Solid {
+          translation 0.25922 -2.9046 0.1
+          rotation 0 0 1 -3.1415853071795863
+          children [
+            Shape {
+              appearance Appearance {
+                texture ImageTexture {
+                  url [
+                    "Images/ground_grass.png"
+                  ]
+                }
+              }
+              geometry Plane {
+                size 2 1
+              }
+            }
+          ]
+          name "solid(2)"
+        }
+      ]
+      name "綠地&樹(1)"
+    }
+    DEF 綠地&樹 Solid {
+      translation 4.1192 5.9354 0
+      rotation 0 0 -1 -5.307179586466759e-06
+      children [
+        SimpleTree {
+          translation 0.3 -2.8 0
+          name "tree(1)"
+          type "oak tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        Solid {
+          translation 0.25922 -2.9046 0.1
+          rotation 0 0 1 -3.1415853071795863
+          children [
+            Shape {
+              appearance Appearance {
+                texture ImageTexture {
+                  url [
+                    "Images/ground_grass.png"
+                  ]
+                }
+              }
+              geometry Plane {
+                size 2 1
+              }
+            }
+          ]
+          name "solid(2)"
+        }
+      ]
+      name "綠地&樹(3)"
+    }
+    Solid {
+      translation -0.21 0 -0.17
+      children [
+        ParkingLines {
+          translation 3.67 -4.79996 0.18
+          rotation 0 0 1 1.5708
+          numberOfCarParks 7
+          carParkLength 1
+          carParkWidth 1
+        }
+        ParkingLines {
+          translation 0.88 -4.81996 0.18
+          rotation 0 0 1 1.5708
+          numberOfCarParks 7
+          carParkLength 1
+          carParkWidth 1
+        }
+        ParkingLines {
+          translation 1.88 -4.81996 0.18
+          rotation 0 0 1 1.5708
+          numberOfCarParks 7
+          carParkLength 1
+          carParkWidth 1
+        }
+        ParkingLines {
+          translation -0.9 -4.80996 0.18
+          rotation 0 0 1 1.5708
+          numberOfCarParks 7
+          carParkLength 1
+          carParkWidth 1
+        }
+      ]
+      name "停車格"
+    }
+    DEF 地板 Solid {
+      translation 2.07919 -1.2246 0
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Images/白色顆粒.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 10000 10000
+            }
+          }
+        }
+      ]
+      name "地板"
+    }
+    DEF 建築 Solid {
+      translation 1.48 1.11 0
+      children [
+        Building {
+          translation -7.04779 9.4428 0.00017349
+          rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+          floorHeight 2
+          corners [
+            11 -5
+            11 -7
+            3 -7
+            3 -5
+          ]
+          wallAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/brick_building.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/bitumen.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofShape "flat roof"
+          roofHeight 1
+        }
+        Building {
+          translation 10.9222 7.4528 0.000165162
+          rotation -2.0927099999908353e-06 -2.0927099999908353e-06 0.9999999999956206 -1.5707953071795862
+          name "building(2)"
+          floorHeight 2
+          corners [
+            16.8 -5
+            16.8 -7
+            3 -7
+            3 -5
+          ]
+          wallAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/brick_building.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/bitumen.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofShape "flat roof"
+          roofHeight 1
+        }
+        Building {
+          translation -7.01779 -2.3572 0.000124107
+          rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+          name "building(1)"
+          floorHeight 2
+          corners [
+            11 -5
+            11 -7
+            3 -7
+            3 -5
+          ]
+          wallAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/brick_building.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/bitumen.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofShape "flat roof"
+          roofHeight 1
+        }
+      ]
+    }
+    DEF 教學大樓招牌 Solid {
+      translation 6.32493 -1.20953 6.53
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/教學大樓.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+  ]
+  name "solid(10)"
+}
+DEF 機械館 Solid {
+  translation 17.2433 -19.9893 1.0019e-05
+  rotation 0 0 1 1.7016996938995748
+  children [
+    Building {
+      translation -7.04779 5.8428 0.000158403
+      rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+      floorHeight 2
+      corners [
+        11 -5
+        11 -7
+        3 -7
+        3 -5
+      ]
+      wallAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/red_and_white_building_roughness.png"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofShape "flat roof"
+      roofHeight 1
+    }
+    DEF 機械館招牌 Solid {
+      translation -0.985072 -0.0595213 6.53
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/機械館.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    DEF 地板 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/白色顆粒.jpg"
+          ]
+        }
+      }
+    }
+  ]
+  name "solid(9)"
+}
+DEF 誠信樓 Solid {
+  translation 16.9619 -11.5088 1.0019e-05
+  rotation 0 0 1 1.5707996938995747
+  children [
+    Building {
+      translation -5.55779 6.0028 0.000159065
+      rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+      floorHeight 2
+      corners [
+        9 -5
+        9 -7
+        3 -7
+        3 -5
+      ]
+      wallAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/factory_building.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofShape "flat roof"
+      roofHeight 1
+    }
+    Building {
+      translation -7.02779 6.0028 0.000159065
+      rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+      name "building(1)"
+      floorHeight 2
+      corners [
+        5 -4
+        5 -7
+        3 -7
+        3 -4
+      ]
+      wallAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/factory_building.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofShape "flat roof"
+      roofHeight 1
+    }
+    DEF 誠信樓招牌 Solid {
+      translation -0.575072 -0.05952 6.49
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/誠信樓.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    DEF 地板 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/白色顆粒.jpg"
+          ]
+        }
+      }
+    }
+  ]
+  name "solid(7)"
+}
+DEF 中正堂 Solid {
+  translation 19.19 -5.33547 1.0019e-05
+  rotation 0 0 1 1.5707996938995747
+  children [
+    ParkingLines {
+      translation 4.50999 0.440057 0.18
+      rotation 0 0 1 1.5708
+      numberOfCarParks 6
+      carParkLength 1
+      carParkWidth 0.5
+    }
+    ParkingLines {
+      translation 4.46999 -3.52995 0.18
+      rotation 0 0 1 1.5708
+      numberOfCarParks 4
+      carParkLength 1
+      carParkWidth 0.5
+    }
+    DEF 綠地&樹 Solid {
+      translation 0.0692146 3.1554 0
+      rotation 0 0 1 1.5708
+      children [
+        SimpleTree {
+          translation -2 -2.8 0
+          name "tree(6)"
+          type "oak tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        SimpleTree {
+          translation -0.1 -2.8 0
+          name "tree(1)"
+          type "white pine"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        Solid {
+          translation -1.22078 -2.9046 0.1
+          rotation 0 0 1 -3.1415853071795863
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0.666667 0
+                baseColorMap ImageTexture {
+                  url [
+                    "Images/ground_grass.png"
+                  ]
+                }
+              }
+              geometry Plane {
+                size 3 1
+              }
+            }
+          ]
+          name "solid(2)"
+        }
+      ]
+      name "綠地&樹"
+    }
+    DEF 綠地&樹 Solid {
+      translation 0.0692297 -0.8146 0
+      rotation 0 0 1 1.5708
+      children [
+        SimpleTree {
+          translation -2.2 -2.8 0
+          name "tree(6)"
+          type "oak tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        SimpleTree {
+          translation -1.1 -2.8 0
+          name "tree(1)"
+          type "white pine"
+          height 2
+          radius 1
+          enableBoundingObject FALSE
+        }
+        Solid {
+          translation -1.73078 -2.9046 0.1
+          rotation 0 0 1 -3.1415853071795863
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0.666667 0
+                baseColorMap ImageTexture {
+                  url [
+                    "Images/ground_grass.png"
+                  ]
+                }
+              }
+              geometry Plane {
+                size 2 1
+              }
+            }
+          ]
+          name "solid(2)"
+        }
+      ]
+      name "綠地&樹(1)"
+    }
+    Solid {
+      translation -0.92286 1.41776 0
+      children [
+        PottedTree {
+          translation -1.58565 1.78129 0
+        }
+        PottedTree {
+          translation -1.07565 1.37129 0
+          name "potted tree(1)"
+        }
+        PottedTree {
+          translation 2.07435 0.59129 0
+          name "potted tree(2)"
+        }
+        PottedTree {
+          translation 2.16435 1.72129 0
+          name "potted tree(3)"
+        }
+      ]
+      name "道路樹"
+    }
+    DEF 建築 Solid {
+      translation 1.48 1.11 0
+      children [
+        Building {
+          translation -3.05779 5.2828 0.000156044
+          rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+          name "building(2)"
+          floorHeight 2
+          corners [
+            4 -3
+            4 -10
+            3 -10
+            3 -3
+          ]
+          wallAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/windowed_building_base_color.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/bitumen.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofShape "flat roof"
+          roofHeight 1
+        }
+        Building {
+          translation -7.02779 5.2828 0.000156044
+          rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+          name "building(1)"
+          floorHeight 2
+          corners [
+            4 -4
+            4 -10
+            3 -10
+            3 -4
+          ]
+          wallAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/windowed_building_base_color.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/bitumen.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofShape "flat roof"
+          roofHeight 1
+        }
+        Building {
+          translation -6.02779 5.4028 0.000156546
+          rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+          floorHeight 2
+          corners [
+            7 -5
+            7 -9
+            1.95 -9
+            1.95 -5
+          ]
+          wallAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/concrete_building.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofHeight 1
+        }
+      ]
+    }
+    DEF 中正堂招牌 Solid {
+      translation -0.05507 -0.40952 7.42
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/中正堂.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    DEF 地板 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/白色顆粒.jpg"
+          ]
+        }
+      }
+    }
+  ]
+  name "solid(8)"
+}
+DEF 電子館 Solid {
+  translation 10.4649 -19.9282 1.0019e-05
+  rotation 0 0 1 1.7016996938995748
+  children [
+    Building {
+      translation -3.62626 5.2794 0.00015699
+      rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+      name "building(1)"
+      floorHeight 2
+      corners [
+        5 -5
+        5 -10
+        0 -10
+        4 -3
+      ]
+      wallAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/classic_building_base_color.jpg"
+            ""
+            ""
+            ""
+            ""
+            ""
+            ""
+            ""
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofShape "flat roof"
+      roofHeight 1
+    }
+    Building {
+      translation -3.63779 10.3328 0.00017723
+      rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+      floorHeight 2
+      corners [
+        5 -5
+        5 -10
+        3 -10
+        3 -5
+      ]
+      wallAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/classic_building_base_color.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofShape "flat roof"
+      roofHeight 1
+    }
+    DEF 電子館招牌 Solid {
+      translation 0.244928 -0.0195155 6.49
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/電子館.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    DEF 地板 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/白色顆粒.jpg"
+          ]
+        }
+      }
+    }
+  ]
+  name "solid(6)"
+}
+TiagoLite {
+  translation 9.11042 0.945581 0.0902075
+  rotation 0.005696337616522833 0.08090446614773197 -0.9967055829557236 -0.17172530717958612
+  name "Tiago_Lite"
+  controller "<extern>"
+  supervisor TRUE
+  cameraSlot [
+    Camera {
+      name "camera"
+      width 640
+      height 480
+      fieldOfView 1.0
+      rotation 1 0 0 -1.5708
+    }
+  ]
+  lidarSlot [
+    Lidar {
+      name "hokuyo"
+      horizontalResolution 660
+      fieldOfView 3.14
+      numberOfLayers 1
+      maxRange 6
+    }
+  ]
+}
+DEF 營管大樓 Solid {
+  translation 25.2431 0.92668 1.0019e-05
+  rotation 0 0 1 1.7016996938995748
+  children [
+    DEF 地板 Solid {
+      translation 2.07919 -1.2246 0
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Images/白色顆粒.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 10000 10000
+            }
+          }
+        }
+      ]
+      name "地板"
+    }
+    DEF 建築 Solid {
+      translation 1.48 1.11 0
+      children [
+        Building {
+          translation 5.7422 4.4228 0.000152465
+          rotation -2.0927099999908353e-06 -2.0927099999908353e-06 0.9999999999956206 -1.5707953071795862
+          name "building(2)"
+          floorHeight 2
+          corners [
+            11 -3
+            11 -7
+            3 -7
+            3 -3
+          ]
+          wallAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/old_house.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/colored_textures/bitumen_C0C0C0.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofShape "flat roof"
+          roofHeight 1
+        }
+      ]
+    }
+    DEF 營管大樓招牌 Solid {
+      translation 2.17493 -1.20953 6.53
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/營管大樓.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+  ]
+  name "solid(11)"
+}
+DEF 工專路校門&警衛室 Solid {
+  translation 5.78658 0.40735 3.5527e-14
+  children [
+    Solid {
+      translation -4.78286 -1.37224 0
+      children [
+        PottedTree {
+          translation 5.47435 2.03129 0
+        }
+        PottedTree {
+          translation 5.93435 2.03129 0
+          name "potted tree(1)"
+        }
+        PottedTree {
+          translation 5.47435 2.61129 0
+          name "potted tree(2)"
+        }
+        PottedTree {
+          translation 5.95435 2.61129 0
+          name "potted tree(3)"
+        }
+      ]
+      name "道路樹"
+    }
+    DEF 台科華夏校區招牌 AdvertisingBoard {
+      translation 0 0.9 0
+      frontTexture [
+        "Texts/台科華夏校區.png"
+      ]
+      backTexture [
+        "Texts/台科華夏校區.png"
+      ]
+      displayWidth 3
+      displayHeight 1
+      frameThickness 0.1
+    }
+    DEF 地板 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/白色顆粒.jpg"
+          ]
+        }
+      }
+    }
+    DEF 警衛室 Solid {
+      translation 0.37088 -1.19143 1.0019e-05
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        DEF 警衛室招牌 Solid {
+          translation 1.16493 -0.39951 2.84
+          rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+          children [
+            Shape {
+              appearance Appearance {
+                texture ImageTexture {
+                  url [
+                    "Texts/警衛室.png"
+                  ]
+                }
+              }
+              geometry Rectangle {
+                size 1 1
+              }
+            }
+          ]
+          name "solid(2)"
+        }
+        Building {
+          translation -0.36779 7.7228 0.000166275
+          rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+          name "building(2)"
+          floorHeight 2.6
+          floorNumber 1
+          corners [
+            2 -7
+            2 -9
+            1 -9
+            1 -7
+          ]
+          wallAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/orange_building_base_color.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofAppearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/bitumen.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          roofShape "flat roof"
+          roofHeight 1
+        }
+      ]
+      name "solid(5)"
+    }
+    Fence {
+      translation 0.00737325 3.86025 -1.63425e-13
+      rotation 0 0 1 3.14159
+      height 0.9
+      poleGap 0.3
+      poleRadius 0.03
+      poleShape "H"
+      path [
+        0 0 0
+        0 1.4 0
+      ]
+    }
+    Fence {
+      translation 0.00736126 -0.63975 -1.63425e-13
+      rotation 0 0 1 3.14159
+      name "fence(1)"
+      height 0.9
+      poleGap 0.3
+      poleRadius 0.03
+      poleShape "H"
+      path [
+        0 0 0
+        0 0.9 0
+      ]
+    }
+  ]
+}
+DEF 恆毅樓 Solid {
+  translation 6.05088 5.74857 1.0019e-05
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    DEF 恆毅樓招牌 Solid {
+      translation 0.22493 -0.0195129 5.9
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/恆毅樓.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Building {
+      translation -2.25779 9.2928 0.000172855
+      rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+      name "building(2)"
+      floorHeight 1.8
+      corners [
+        4 -7
+        4 -12
+        1 -12
+        1 -7
+      ]
+      wallAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/classic_building_base_color.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/bitumen.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofShape "flat roof"
+      roofHeight 1
+    }
+    DEF 地板 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/白色顆粒.jpg"
+          ]
+        }
+      }
+    }
+  ]
+  name "solid(5)"
+}
+DEF 聚鈺樓 Solid {
+  translation 6.83824 -9.13845 1.0019e-05
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Building {
+      translation -3.72779 7.9928 0.000167401
+      rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+      name "building(2)"
+      floorHeight 1.8
+      corners [
+        7 -7
+        7 -10
+        1 -10
+        1 -7
+      ]
+      wallAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/brick_building.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/bitumen.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofShape "flat roof"
+      roofHeight 1
+    }
+    DEF 聚鈺樓招牌 Solid {
+      translation 0.46493 -0.0195119 5.72
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/聚鈺樓.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    DEF 地板 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/白色顆粒.jpg"
+          ]
+        }
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject Box {
+    size 6 2 9
+  }
+}
+DEF 圖書館 Solid {
+  translation 6.82271 -5.15351 1.0019e-05
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Solid {
+      translation -0.92286 -0.46224 0
+      children [
+        PottedTree {
+          translation -1.58565 1.78129 0
+        }
+        PottedTree {
+          translation -0.47565 1.77129 0
+          name "potted tree(1)"
+        }
+        PottedTree {
+          translation 0.68435 1.77129 0
+          name "potted tree(2)"
+        }
+        PottedTree {
+          translation 1.74435 1.72129 0
+          name "potted tree(3)"
+        }
+      ]
+      name "道路樹"
+    }
+    Building {
+      translation -3.72779 7.9928 0.000167401
+      rotation -0.7886308888621998 -5.672099200659476e-09 -0.6148669133498864 -5.307179586466759e-06
+      name "building(2)"
+      floorHeight 1.6
+      corners [
+        5 -7
+        5 -10
+        1 -10
+        1 -7
+      ]
+      wallAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/brick_building.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/bitumen.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofShape "flat roof"
+      roofHeight 1
+    }
+    DEF 圖書館招牌 Solid {
+      translation -0.06507 -0.0195087 5.21
+      rotation -1.73923999998733e-06 3.3977899999752476e-06 -0.9999999999927152 -1.5707953071795862
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/圖書館.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 2 2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    DEF 地板 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "Images/白色顆粒.jpg"
+          ]
+        }
+      }
+    }
+  ]
+  name "solid(3)"
+}
+DEF 籃球場 Solid {
+  translation 16.3092 2.2554 0
+  rotation 0 0 1 1.5707996938995747
+  children [
+    Solid {
+      translation 0.0291785 3.8754 0
+      rotation 0 0 1 -3.1415853071795863
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Images/basket court.jpg"
+              ]
+            }
+          }
+          geometry Plane {
+            size 6 3
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0.0291989 1.0254 0
+      rotation 0 0 1 -3.1415853071795863
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Images/basket court.jpg"
+              ]
+            }
+          }
+          geometry Plane {
+            size 6 3
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 0.029219 -1.7846 0
+      rotation 0 0 1 -3.1415853071795863
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Images/basket court.jpg"
+              ]
+            }
+          }
+          geometry Plane {
+            size 6 3
+          }
+        }
+      ]
+    }
+  ]
+  name "籃球場"
+}
+DEF 停車場 Solid {
+  translation 4.91 -19.6446 0
+  rotation 0 0 1 1.5708
+  children [
+    TrafficCone {
+      translation 2.97 -0.3 0.05
+      scale 0.5
+    }
+    TrafficCone {
+      translation 0.78 -0.3 0.05
+      scale 0.5
+      name "traffic cone(1)"
+    }
+    StraightRoadSegment {
+      translation 1.9 -0.1 0.05
+      rotation 0 0 1 -1.5707996938995747
+      width 2.5
+      lines [
+        RoadLine {
+          color 0 0 0
+        }
+      ]
+      roadBorderHeight 0.1
+      startingRoadBorderWidth 0
+      endingRoadBorderWidth 0
+      rightBorder FALSE
+      leftBorder FALSE
+      length 2.5
+    }
+    Solid {
+      translation 2.56 -0.530003 1.32
+      rotation 9.381857096790023e-07 0.7071067811862364 0.7071067811862364 3.14159
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Images/道路遵行方向.jpg"
+              ]
+            }
+          }
+          geometry Cylinder {
+            height 0.01
+            radius 0.12
+          }
+        }
+      ]
+    }
+    Solid {
+      translation 1.37 -0.530003 1.32
+      rotation 9.381857096790023e-07 0.7071067811862364 0.7071067811862364 3.14159
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Images/速限10KM.jpg"
+              ]
+            }
+          }
+          geometry Cylinder {
+            height 0.01
+            radius 0.12
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 1.89 -1.44385 0.720625
+      rotation 1.1801755611945032e-06 0.9444770262231295 0.3285774595667223 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+          }
+          geometry Plane {
+            size 2.4 2.2
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Fence {
+      translation 1.73736 -0.53975 1.16
+      rotation 9.58979e-09 9.5898e-09 1 -1.5707953071795862
+      name "Fence"
+      height 0.3
+      poleGap 0.4
+      poleRadius 0.02
+      path [
+        0 -1 0
+        0 1.9 0
+      ]
+      subdivision 2
+      horizontalBarShape [
+        0.02 0.02
+        0.02 0
+        -0.02 0
+        -0.02 0.02
+        0.02 0.06
+      ]
+    }
+    Building {
+      translation 3.09 -2.48 0.99
+      rotation 0 1 0 -1.5707953071795862
+      floorHeight 0.8
+      corners [
+        0.5 2
+        0.5 -0.5
+        -1 -0.5
+        -1 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/bitumen.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      roofShape "flat roof"
+    }
+  ]
+  name "籃球場(1)"
+}
+Solid {
+  children [
+    StreetLight {
+      translation 15 -3.34 0
+      rotation 0 0 1 3.14159
+      scale 0.5
+      beamWidth 0.3
+      radius 10
+      intensity 15
+    }
+    StreetLight {
+      translation 15.13 -5.38 0
+      rotation 0 0 1 3.14159
+      scale 0.5
+      name "street light(1)"
+      beamWidth 0.3
+      radius 10
+      intensity 15
+    }
+    StreetLight {
+      translation 15 -7.8 0
+      rotation 0 0 1 3.14159
+      scale 0.5
+      name "street light(2)"
+      beamWidth 0.3
+      radius 10
+      intensity 15
+    }
+    StreetLight {
+      translation 15 -10.6 0
+      rotation 0 0 1 3.14159
+      scale 0.5
+      name "street light(3)"
+      beamWidth 0.3
+      radius 10
+      intensity 15
+    }
+    StreetLight {
+      translation 14.77 -13.7 0
+      rotation 0 0 1 3.14159
+      scale 0.5
+      name "street light(4)"
+      beamWidth 0.3
+      radius 10
+      intensity 15
+    }
+    StreetLight {
+      translation 14.6 -15.65 0
+      rotation 0 0 1 3.14159
+      scale 0.5
+      name "street light(5)"
+      beamWidth 0.3
+      radius 10
+      intensity 15
+    }
+  ]
+  name "誠信樓_聚鈺樓街燈"
+}
+Solid {
+  translation 11.48 -16.73 0
+  rotation 1 0 0 4.692820414042842e-06
+  children [
+    Solid {
+      translation -1.25 -0.69 0.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.666667 0
+            baseColorMap ImageTexture {
+              url [
+                "Images/ground_grass.png"
+              ]
+            }
+          }
+          geometry Plane {
+            size 5 4
+          }
+        }
+      ]
+      name "綠地"
+    }
+    Solid {
+      children [
+        SimpleTree {
+          translation -2 -1.5 0
+          name "tree(5)"
+          type "oak tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        SimpleTree {
+          translation -2 0 0
+          name "tree(6)"
+          type "oak tree"
+          height 3
+          radius 1
+          enableBoundingObject FALSE
+        }
+        Tree {
+          translation -1 0 0
+          name "tree(4)"
+          scale 0.4 0.5 3.3
+        }
+        Tree {
+          translation -1 -1 0
+          name "tree(3)"
+          scale 0.4 0.5 3.3
+        }
+        Tree {
+          translation 0 -1 0
+          name "tree(2)"
+          scale 0.4 0.5 3.3
+        }
+        Tree {
+          translation 0 1 0
+          name "tree(1)"
+          scale 0.4 0.5 3.3
+        }
+        Tree {
+          scale 0.4 0.5 3.3
+        }
+      ]
+      name "大樹"
+    }
+  ]
+  name "電子館_停車場&樹"
+}
+Solid {
+  translation 2.84381 -5.44894 -0.98
+  children [
+    Solid {
+      translation -0.0650692 1.57049 1.11998
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Rectangle {
+            size 41.4 0.5
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.1 41.4 0.4
+      }
+    }
+    Solid {
+      translation 10.4649 22.2305 1.11998
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Rectangle {
+            size 21 0.5
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Box {
+        size 0.1 21 0.4
+      }
+    }
+    Solid {
+      translation 20.9449 18.6905 1.11998
+      rotation 0 0 1 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Rectangle {
+            size 7 0.5
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Box {
+        size 0.1 7 0.4
+      }
+    }
+    Solid {
+      translation 27.9949 15.2405 1.11998
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Rectangle {
+            size 14 0.5
+          }
+        }
+      ]
+      name "solid(3)"
+      boundingObject Box {
+        size 0.1 14 0.4
+      }
+    }
+    Solid {
+      translation 35.0149 8.7105 1.11998
+      rotation 0 0 1 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Rectangle {
+            size 13 0.5
+          }
+        }
+      ]
+      name "solid(4)"
+      boundingObject Box {
+        size 0.1 13 0.4
+      }
+    }
+    Solid {
+      translation 29.0649 2.1805 1.11998
+      rotation 0 0 -1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Rectangle {
+            size 12 0.5
+          }
+        }
+      ]
+      name "solid(5)"
+      boundingObject Box {
+        size 0.1 12 0.4
+      }
+    }
+    Solid {
+      translation 23.1249 -8.6495 1.11998
+      rotation 0 0 -1 -3.1415853071795863
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Rectangle {
+            size 21.5 0.5
+          }
+        }
+      ]
+      name "solid(6)"
+      boundingObject Box {
+        size 0.1 21.5 0.4
+      }
+    }
+    Solid {
+      translation 11.5049 -19.1795 1.11998
+      rotation -9.58979e-09 9.5898e-09 -1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Rectangle {
+            size 23.2 0.5
+          }
+        }
+      ]
+      name "solid(7)"
+      boundingObject Box {
+        size 0.1 23.2 0.4
+      }
+    }
+  ]
+  name "框架"
+}

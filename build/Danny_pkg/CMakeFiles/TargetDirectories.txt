@@ -1,0 +1,10 @@
+/home/danny/ros2_ws/build/Danny_pkg/CMakeFiles/uninstall.dir
+/home/danny/ros2_ws/build/Danny_pkg/CMakeFiles/Danny_pkg_uninstall.dir
+/home/danny/ros2_ws/build/Danny_pkg/CMakeFiles/Danny_node.dir
+/home/danny/ros2_ws/build/Danny_pkg/CMakeFiles/test.dir
+/home/danny/ros2_ws/build/Danny_pkg/CMakeFiles/edit_cache.dir
+/home/danny/ros2_ws/build/Danny_pkg/CMakeFiles/rebuild_cache.dir
+/home/danny/ros2_ws/build/Danny_pkg/CMakeFiles/list_install_components.dir
+/home/danny/ros2_ws/build/Danny_pkg/CMakeFiles/install.dir
+/home/danny/ros2_ws/build/Danny_pkg/CMakeFiles/install/local.dir
+/home/danny/ros2_ws/build/Danny_pkg/CMakeFiles/install/strip.dir

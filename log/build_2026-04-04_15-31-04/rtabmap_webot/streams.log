@@ -1,0 +1,25 @@
+[1.415s] Invoking command in '/home/danny/ros2_ws/src/rtabmap_webot': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_webot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_webot build --build-base /home/danny/ros2_ws/build/rtabmap_webot/build install --record /home/danny/ros2_ws/build/rtabmap_webot/install.log --single-version-externally-managed install_data
+[1.958s] running egg_info
+[1.989s] writing ../../build/rtabmap_webot/rtabmap_webot.egg-info/PKG-INFO
+[1.989s] writing dependency_links to ../../build/rtabmap_webot/rtabmap_webot.egg-info/dependency_links.txt
+[1.989s] writing entry points to ../../build/rtabmap_webot/rtabmap_webot.egg-info/entry_points.txt
+[1.990s] writing requirements to ../../build/rtabmap_webot/rtabmap_webot.egg-info/requires.txt
+[1.990s] writing top-level names to ../../build/rtabmap_webot/rtabmap_webot.egg-info/top_level.txt
+[2.040s] reading manifest file '../../build/rtabmap_webot/rtabmap_webot.egg-info/SOURCES.txt'
+[2.041s] adding license file 'LICENSE'
+[2.042s] writing manifest file '../../build/rtabmap_webot/rtabmap_webot.egg-info/SOURCES.txt'
+[2.042s] running build
+[2.042s] running build_py
+[2.042s] copying rtabmap_webot/buildings_marker.py -> /home/danny/ros2_ws/build/rtabmap_webot/build/lib/rtabmap_webot
+[2.043s] running install
+[2.049s] running install_lib
+[2.070s] copying /home/danny/ros2_ws/build/rtabmap_webot/build/lib/rtabmap_webot/buildings_marker.py -> /home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/rtabmap_webot
+[2.071s] byte-compiling /home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/rtabmap_webot/buildings_marker.py to buildings_marker.cpython-310.pyc
+[2.072s] running install_data
+[2.073s] running install_egg_info
+[2.097s] removing '/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/rtabmap_webot-0.0.1-py3.10.egg-info' (and everything under it)
+[2.097s] Copying ../../build/rtabmap_webot/rtabmap_webot.egg-info to /home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/rtabmap_webot-0.0.1-py3.10.egg-info
+[2.099s] running install_scripts
+[2.187s] Installing buildings_marker script to /home/danny/ros2_ws/install/rtabmap_webot/lib/rtabmap_webot
+[2.187s] writing list of installed files to '/home/danny/ros2_ws/build/rtabmap_webot/install.log'
+[2.244s] Invoked command in '/home/danny/ros2_ws/src/rtabmap_webot' returned '0': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_webot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_webot build --build-base /home/danny/ros2_ws/build/rtabmap_webot/build install --record /home/danny/ros2_ws/build/rtabmap_webot/install.log --single-version-externally-managed install_data

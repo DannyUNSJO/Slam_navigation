@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/PKG-INFO
+writing dependency_links to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/dependency_links.txt
+writing entry points to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/entry_points.txt
+writing requirements to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/requires.txt
+writing top-level names to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/top_level.txt
+reading manifest file '../../build/rtabmap_ntust/rtabmap_ntust.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rtabmap_ntust/rtabmap_ntust.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_ntust
+copying rtabmap_ntust/buildings_marker.py -> /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_ntust
+copying rtabmap_ntust/__init__.py -> /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_ntust
+running install
+running install_lib
+creating /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust
+copying /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_ntust/buildings_marker.py -> /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust
+copying /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_ntust/__init__.py -> /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust
+byte-compiling /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust/buildings_marker.py to buildings_marker.cpython-310.pyc
+byte-compiling /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust/__init__.py to __init__.cpython-310.pyc
+running install_data

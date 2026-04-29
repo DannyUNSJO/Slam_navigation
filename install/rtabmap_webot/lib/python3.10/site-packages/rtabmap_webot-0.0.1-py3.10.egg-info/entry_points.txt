@@ -1,0 +1,2 @@
+[console_scripts]
+buildings_marker = rtabmap_webot.buildings_marker:main

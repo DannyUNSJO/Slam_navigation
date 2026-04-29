@@ -1,0 +1,466 @@
+[0.000000] (-) TimerEvent: {}
+[0.000703] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001140] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.024599] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.037459] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/danny/ros2_ws/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/danny/ros2_ws/install/turtlesim'], 'cwd': '/home/danny/ros2_ws/build/turtlesim', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danny'), ('GIT_ASKPASS', '/home/danny/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danny/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/danny'), ('OLDPWD', '/home/danny/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-397eee81-2622-421e-90d3-e1a934552eea.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/danny/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/danny/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/danny/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danny/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'danny'), ('NAME', 'DESKTOP-P4MFVOU'), ('WSL_INTEROP', '/run/WSL/18616_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/danny/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/home/danny/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/altera/91sp2/quartus/bin:/mnt/d/MinGW/bin:/mnt/d/MATLAB_R2024B/runtime/win64:/mnt/d/MATLAB_R2024B/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/d/python 3.13.5/Scripts/:/mnt/d/python 3.13.5/:/mnt/d/Scripts/:/mnt/d/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin:/mnt/d/Webots/msys64/mingw64/bin/:/home/danny/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/mnt/d/Webots/msys64/mingw64/bin/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.29.224.1:0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/danny/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ba9fa23f7decd361.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/danny/.vscode-server/data/User/workspaceStorage/4dcaf9f3b59f13f76ba368f9c76405f7/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-6ba78b3f89.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/danny/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('WEBOTS_HOME', '/mnt/d/Webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/danny/ros2_ws/build/turtlesim'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danny/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/danny/ros2_ws/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.098536] (-) TimerEvent: {}
+[0.198990] (-) TimerEvent: {}
+[0.299681] (-) TimerEvent: {}
+[0.400448] (-) TimerEvent: {}
+[0.500906] (-) TimerEvent: {}
+[0.601580] (-) TimerEvent: {}
+[0.702286] (-) TimerEvent: {}
+[0.803054] (-) TimerEvent: {}
+[0.903724] (-) TimerEvent: {}
+[0.955794] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.004152] (-) TimerEvent: {}
+[1.104578] (-) TimerEvent: {}
+[1.205323] (-) TimerEvent: {}
+[1.282709] (turtlesim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.305907] (-) TimerEvent: {}
+[1.406696] (-) TimerEvent: {}
+[1.507149] (-) TimerEvent: {}
+[1.603597] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[1.607354] (-) TimerEvent: {}
+[1.626377] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.707931] (-) TimerEvent: {}
+[1.808618] (-) TimerEvent: {}
+[1.909115] (-) TimerEvent: {}
+[2.009999] (-) TimerEvent: {}
+[2.110757] (-) TimerEvent: {}
+[2.175597] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.210897] (-) TimerEvent: {}
+[2.217374] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.272287] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.311132] (-) TimerEvent: {}
+[2.324302] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.411581] (-) TimerEvent: {}
+[2.419840] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.511792] (-) TimerEvent: {}
+[2.612460] (-) TimerEvent: {}
+[2.712903] (-) TimerEvent: {}
+[2.813298] (-) TimerEvent: {}
+[2.863695] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.913762] (-) TimerEvent: {}
+[3.014353] (-) TimerEvent: {}
+[3.072774] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.086142] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.114556] (-) TimerEvent: {}
+[3.214939] (-) TimerEvent: {}
+[3.315336] (-) TimerEvent: {}
+[3.415730] (-) TimerEvent: {}
+[3.516280] (-) TimerEvent: {}
+[3.616751] (-) TimerEvent: {}
+[3.717118] (-) TimerEvent: {}
+[3.817472] (-) TimerEvent: {}
+[3.917887] (-) TimerEvent: {}
+[4.018364] (-) TimerEvent: {}
+[4.118751] (-) TimerEvent: {}
+[4.219092] (-) TimerEvent: {}
+[4.319437] (-) TimerEvent: {}
+[4.419783] (-) TimerEvent: {}
+[4.520161] (-) TimerEvent: {}
+[4.620525] (-) TimerEvent: {}
+[4.720991] (-) TimerEvent: {}
+[4.821369] (-) TimerEvent: {}
+[4.921816] (-) TimerEvent: {}
+[5.022307] (-) TimerEvent: {}
+[5.122764] (-) TimerEvent: {}
+[5.223172] (-) TimerEvent: {}
+[5.323559] (-) TimerEvent: {}
+[5.424011] (-) TimerEvent: {}
+[5.524412] (-) TimerEvent: {}
+[5.624876] (-) TimerEvent: {}
+[5.725228] (-) TimerEvent: {}
+[5.825705] (-) TimerEvent: {}
+[5.926105] (-) TimerEvent: {}
+[6.026472] (-) TimerEvent: {}
+[6.126979] (-) TimerEvent: {}
+[6.227446] (-) TimerEvent: {}
+[6.327875] (-) TimerEvent: {}
+[6.428317] (-) TimerEvent: {}
+[6.528705] (-) TimerEvent: {}
+[6.629077] (-) TimerEvent: {}
+[6.729435] (-) TimerEvent: {}
+[6.829851] (-) TimerEvent: {}
+[6.930240] (-) TimerEvent: {}
+[7.030640] (-) TimerEvent: {}
+[7.131030] (-) TimerEvent: {}
+[7.231440] (-) TimerEvent: {}
+[7.331871] (-) TimerEvent: {}
+[7.432283] (-) TimerEvent: {}
+[7.532687] (-) TimerEvent: {}
+[7.633098] (-) TimerEvent: {}
+[7.733537] (-) TimerEvent: {}
+[7.833926] (-) TimerEvent: {}
+[7.934331] (-) TimerEvent: {}
+[8.034906] (-) TimerEvent: {}
+[8.135269] (-) TimerEvent: {}
+[8.235684] (-) TimerEvent: {}
+[8.280688] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.335888] (-) TimerEvent: {}
+[8.436668] (-) TimerEvent: {}
+[8.533995] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[8.536819] (-) TimerEvent: {}
+[8.637497] (-) TimerEvent: {}
+[8.661153] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[8.702267] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[8.738038] (-) TimerEvent: {}
+[8.838864] (-) TimerEvent: {}
+[8.939338] (-) TimerEvent: {}
+[9.039762] (-) TimerEvent: {}
+[9.140222] (-) TimerEvent: {}
+[9.240984] (-) TimerEvent: {}
+[9.263407] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.341153] (-) TimerEvent: {}
+[9.441879] (-) TimerEvent: {}
+[9.542779] (-) TimerEvent: {}
+[9.643540] (-) TimerEvent: {}
+[9.743985] (-) TimerEvent: {}
+[9.844375] (-) TimerEvent: {}
+[9.847907] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.944525] (-) TimerEvent: {}
+[10.019446] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.044672] (-) TimerEvent: {}
+[10.068050] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.134700] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.134910] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.134978] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[10.145235] (-) TimerEvent: {}
+[10.245799] (-) TimerEvent: {}
+[10.346858] (-) TimerEvent: {}
+[10.386591] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.447291] (-) TimerEvent: {}
+[10.547785] (-) TimerEvent: {}
+[10.648501] (-) TimerEvent: {}
+[10.749111] (-) TimerEvent: {}
+[10.849677] (-) TimerEvent: {}
+[10.857213] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[10.885072] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/danny/ros2_ws/build/turtlesim\n'}
+[10.949918] (-) TimerEvent: {}
+[10.954124] (turtlesim) CommandEnded: {'returncode': 0}
+[10.957303] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[10.958113] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danny/ros2_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/danny/ros2_ws/build/turtlesim', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danny'), ('GIT_ASKPASS', '/home/danny/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danny/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/danny'), ('OLDPWD', '/home/danny/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-397eee81-2622-421e-90d3-e1a934552eea.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/danny/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/danny/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/danny/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danny/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'danny'), ('NAME', 'DESKTOP-P4MFVOU'), ('WSL_INTEROP', '/run/WSL/18616_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/danny/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/home/danny/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/altera/91sp2/quartus/bin:/mnt/d/MinGW/bin:/mnt/d/MATLAB_R2024B/runtime/win64:/mnt/d/MATLAB_R2024B/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/d/python 3.13.5/Scripts/:/mnt/d/python 3.13.5/:/mnt/d/Scripts/:/mnt/d/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin:/mnt/d/Webots/msys64/mingw64/bin/:/home/danny/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/mnt/d/Webots/msys64/mingw64/bin/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.29.224.1:0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/danny/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ba9fa23f7decd361.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/danny/.vscode-server/data/User/workspaceStorage/4dcaf9f3b59f13f76ba368f9c76405f7/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-6ba78b3f89.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/danny/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('WEBOTS_HOME', '/mnt/d/Webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/danny/ros2_ws/build/turtlesim'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danny/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/danny/ros2_ws/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[11.041365] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[11.050142] (-) TimerEvent: {}
+[11.059061] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[11.075577] (turtlesim) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_turtlesim\n'}
+[11.099471] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[11.099813] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[11.110272] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[11.147091] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[11.150286] (-) TimerEvent: {}
+[11.219389] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[11.235500] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[11.237842] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[11.238524] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[11.250489] (-) TimerEvent: {}
+[11.258197] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_c\n'}
+[11.262724] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[11.270119] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[11.278141] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[11.278640] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[11.279768] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimic\x1b[0m\n'}
+[11.283729] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[11.303704] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[11.306008] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[11.349215] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[11.350592] (-) TimerEvent: {}
+[11.393194] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[11.406277] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtle_teleop_key\n'}
+[11.408073] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target mimic\n'}
+[11.413725] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target draw_square\n'}
+[11.415673] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[11.444146] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py\x1b[0m\n'}
+[11.450714] (-) TimerEvent: {}
+[11.500427] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[11.520169] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim__rosidl_generator_py\n'}
+[11.541452] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[11.541770] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[11.541946] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[11.548034] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[11.550882] (-) TimerEvent: {}
+[11.561436] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[11.568371] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[11.574046] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[11.590771] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.596972] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[11.640388] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[11.650992] (-) TimerEvent: {}
+[11.751357] (-) TimerEvent: {}
+[11.827183] (turtlesim) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[11.827661] (turtlesim) StderrLine: {'line': b'  File "/home/danny/ros2_ws/build/turtlesim/ament_cmake_python/turtlesim/setup.py", line 4, in <module>\n'}
+[11.827877] (turtlesim) StderrLine: {'line': b'    setup(\n'}
+[11.828044] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 115, in setup\n'}
+[11.828152] (turtlesim) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[11.828521] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup\n'}
+[11.828706] (turtlesim) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[11.828865] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands\n'}
+[11.828971] (turtlesim) StderrLine: {'line': b'    dist.run_commands()\n'}
+[11.829076] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands\n'}
+[11.829182] (turtlesim) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[11.829403] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command\n'}
+[11.829506] (turtlesim) StderrLine: {'line': b'    super().run_command(command)\n'}
+[11.829575] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command\n'}
+[11.829640] (turtlesim) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[11.829704] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run\n'}
+[11.829767] (turtlesim) StderrLine: {'line': b'    self.find_sources()\n'}
+[11.829862] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources\n'}
+[11.829930] (turtlesim) StderrLine: {'line': b'    mm.run()\n'}
+[11.829993] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run\n'}
+[11.830054] (turtlesim) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[11.830118] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list\n'}
+[11.830179] (turtlesim) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[11.830241] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list\n'}
+[11.830312] (turtlesim) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[11.830369] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname\n'}
+[11.830535] (turtlesim) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[11.830609] (turtlesim) StderrLine: {'line': b'  File "/home/danny/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname\n'}
+[11.830669] (turtlesim) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[11.830726] (turtlesim) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[11.851534] (-) TimerEvent: {}
+[11.861924] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_turtlesim_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_turtlesim_egg] Error 1\n'}
+[11.862328] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:455: CMakeFiles/ament_cmake_python_build_turtlesim_egg.dir/all] Error 2\n'}
+[11.862545] (turtlesim) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[11.951714] (-) TimerEvent: {}
+[12.052395] (-) TimerEvent: {}
+[12.153104] (-) TimerEvent: {}
+[12.253590] (-) TimerEvent: {}
+[12.354019] (-) TimerEvent: {}
+[12.454489] (-) TimerEvent: {}
+[12.554974] (-) TimerEvent: {}
+[12.655449] (-) TimerEvent: {}
+[12.755889] (-) TimerEvent: {}
+[12.856371] (-) TimerEvent: {}
+[12.956852] (-) TimerEvent: {}
+[13.057551] (-) TimerEvent: {}
+[13.158246] (-) TimerEvent: {}
+[13.258895] (-) TimerEvent: {}
+[13.359491] (-) TimerEvent: {}
+[13.459934] (-) TimerEvent: {}
+[13.560422] (-) TimerEvent: {}
+[13.661188] (-) TimerEvent: {}
+[13.762063] (-) TimerEvent: {}
+[13.863003] (-) TimerEvent: {}
+[13.963743] (-) TimerEvent: {}
+[14.064483] (-) TimerEvent: {}
+[14.164916] (-) TimerEvent: {}
+[14.265363] (-) TimerEvent: {}
+[14.365844] (-) TimerEvent: {}
+[14.466521] (-) TimerEvent: {}
+[14.566972] (-) TimerEvent: {}
+[14.667737] (-) TimerEvent: {}
+[14.768548] (-) TimerEvent: {}
+[14.869058] (-) TimerEvent: {}
+[14.969554] (-) TimerEvent: {}
+[15.070299] (-) TimerEvent: {}
+[15.170933] (-) TimerEvent: {}
+[15.271402] (-) TimerEvent: {}
+[15.371916] (-) TimerEvent: {}
+[15.472456] (-) TimerEvent: {}
+[15.573087] (-) TimerEvent: {}
+[15.673511] (-) TimerEvent: {}
+[15.773985] (-) TimerEvent: {}
+[15.874839] (-) TimerEvent: {}
+[15.975535] (-) TimerEvent: {}
+[16.076048] (-) TimerEvent: {}
+[16.176483] (-) TimerEvent: {}
+[16.276888] (-) TimerEvent: {}
+[16.377380] (-) TimerEvent: {}
+[16.477816] (-) TimerEvent: {}
+[16.578255] (-) TimerEvent: {}
+[16.678786] (-) TimerEvent: {}
+[16.779293] (-) TimerEvent: {}
+[16.879780] (-) TimerEvent: {}
+[16.980199] (-) TimerEvent: {}
+[17.080614] (-) TimerEvent: {}
+[17.181080] (-) TimerEvent: {}
+[17.281560] (-) TimerEvent: {}
+[17.382004] (-) TimerEvent: {}
+[17.482467] (-) TimerEvent: {}
+[17.582915] (-) TimerEvent: {}
+[17.683366] (-) TimerEvent: {}
+[17.783884] (-) TimerEvent: {}
+[17.884375] (-) TimerEvent: {}
+[17.984845] (-) TimerEvent: {}
+[18.085284] (-) TimerEvent: {}
+[18.185755] (-) TimerEvent: {}
+[18.286208] (-) TimerEvent: {}
+[18.386672] (-) TimerEvent: {}
+[18.487209] (-) TimerEvent: {}
+[18.587625] (-) TimerEvent: {}
+[18.688035] (-) TimerEvent: {}
+[18.788452] (-) TimerEvent: {}
+[18.888903] (-) TimerEvent: {}
+[18.989318] (-) TimerEvent: {}
+[19.089759] (-) TimerEvent: {}
+[19.190129] (-) TimerEvent: {}
+[19.290536] (-) TimerEvent: {}
+[19.390955] (-) TimerEvent: {}
+[19.491470] (-) TimerEvent: {}
+[19.592317] (-) TimerEvent: {}
+[19.692781] (-) TimerEvent: {}
+[19.793399] (-) TimerEvent: {}
+[19.893948] (-) TimerEvent: {}
+[19.994365] (-) TimerEvent: {}
+[20.094869] (-) TimerEvent: {}
+[20.195255] (-) TimerEvent: {}
+[20.295716] (-) TimerEvent: {}
+[20.396195] (-) TimerEvent: {}
+[20.496720] (-) TimerEvent: {}
+[20.597225] (-) TimerEvent: {}
+[20.697699] (-) TimerEvent: {}
+[20.798198] (-) TimerEvent: {}
+[20.898788] (-) TimerEvent: {}
+[20.999224] (-) TimerEvent: {}
+[21.099697] (-) TimerEvent: {}
+[21.200146] (-) TimerEvent: {}
+[21.300636] (-) TimerEvent: {}
+[21.401157] (-) TimerEvent: {}
+[21.501649] (-) TimerEvent: {}
+[21.602105] (-) TimerEvent: {}
+[21.702585] (-) TimerEvent: {}
+[21.803019] (-) TimerEvent: {}
+[21.903508] (-) TimerEvent: {}
+[22.003915] (-) TimerEvent: {}
+[22.104393] (-) TimerEvent: {}
+[22.204843] (-) TimerEvent: {}
+[22.305299] (-) TimerEvent: {}
+[22.406307] (-) TimerEvent: {}
+[22.506801] (-) TimerEvent: {}
+[22.607268] (-) TimerEvent: {}
+[22.707700] (-) TimerEvent: {}
+[22.808177] (-) TimerEvent: {}
+[22.908712] (-) TimerEvent: {}
+[23.009158] (-) TimerEvent: {}
+[23.109606] (-) TimerEvent: {}
+[23.210043] (-) TimerEvent: {}
+[23.310549] (-) TimerEvent: {}
+[23.411024] (-) TimerEvent: {}
+[23.511464] (-) TimerEvent: {}
+[23.612002] (-) TimerEvent: {}
+[23.712496] (-) TimerEvent: {}
+[23.812952] (-) TimerEvent: {}
+[23.913358] (-) TimerEvent: {}
+[24.013781] (-) TimerEvent: {}
+[24.114236] (-) TimerEvent: {}
+[24.214702] (-) TimerEvent: {}
+[24.315201] (-) TimerEvent: {}
+[24.415647] (-) TimerEvent: {}
+[24.516120] (-) TimerEvent: {}
+[24.616578] (-) TimerEvent: {}
+[24.717081] (-) TimerEvent: {}
+[24.817825] (-) TimerEvent: {}
+[24.918285] (-) TimerEvent: {}
+[25.018726] (-) TimerEvent: {}
+[25.119155] (-) TimerEvent: {}
+[25.219569] (-) TimerEvent: {}
+[25.320035] (-) TimerEvent: {}
+[25.420464] (-) TimerEvent: {}
+[25.520901] (-) TimerEvent: {}
+[25.621325] (-) TimerEvent: {}
+[25.721794] (-) TimerEvent: {}
+[25.822241] (-) TimerEvent: {}
+[25.922761] (-) TimerEvent: {}
+[26.023182] (-) TimerEvent: {}
+[26.123652] (-) TimerEvent: {}
+[26.224165] (-) TimerEvent: {}
+[26.324608] (-) TimerEvent: {}
+[26.425130] (-) TimerEvent: {}
+[26.525623] (-) TimerEvent: {}
+[26.626129] (-) TimerEvent: {}
+[26.726696] (-) TimerEvent: {}
+[26.827181] (-) TimerEvent: {}
+[26.927800] (-) TimerEvent: {}
+[27.028396] (-) TimerEvent: {}
+[27.128870] (-) TimerEvent: {}
+[27.229305] (-) TimerEvent: {}
+[27.329714] (-) TimerEvent: {}
+[27.430236] (-) TimerEvent: {}
+[27.530674] (-) TimerEvent: {}
+[27.631181] (-) TimerEvent: {}
+[27.731644] (-) TimerEvent: {}
+[27.832119] (-) TimerEvent: {}
+[27.932566] (-) TimerEvent: {}
+[28.033010] (-) TimerEvent: {}
+[28.133520] (-) TimerEvent: {}
+[28.233964] (-) TimerEvent: {}
+[28.334361] (-) TimerEvent: {}
+[28.434883] (-) TimerEvent: {}
+[28.535380] (-) TimerEvent: {}
+[28.635890] (-) TimerEvent: {}
+[28.736378] (-) TimerEvent: {}
+[28.836991] (-) TimerEvent: {}
+[28.937631] (-) TimerEvent: {}
+[29.038207] (-) TimerEvent: {}
+[29.138820] (-) TimerEvent: {}
+[29.239240] (-) TimerEvent: {}
+[29.339780] (-) TimerEvent: {}
+[29.440389] (-) TimerEvent: {}
+[29.540809] (-) TimerEvent: {}
+[29.641538] (-) TimerEvent: {}
+[29.742012] (-) TimerEvent: {}
+[29.842535] (-) TimerEvent: {}
+[29.943005] (-) TimerEvent: {}
+[30.043584] (-) TimerEvent: {}
+[30.144123] (-) TimerEvent: {}
+[30.244657] (-) TimerEvent: {}
+[30.345126] (-) TimerEvent: {}
+[30.445599] (-) TimerEvent: {}
+[30.546126] (-) TimerEvent: {}
+[30.646561] (-) TimerEvent: {}
+[30.710627] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[30.746848] (-) TimerEvent: {}
+[30.847291] (-) TimerEvent: {}
+[30.948141] (-) TimerEvent: {}
+[31.048809] (-) TimerEvent: {}
+[31.149300] (-) TimerEvent: {}
+[31.249771] (-) TimerEvent: {}
+[31.350270] (-) TimerEvent: {}
+[31.450878] (-) TimerEvent: {}
+[31.551422] (-) TimerEvent: {}
+[31.651961] (-) TimerEvent: {}
+[31.752435] (-) TimerEvent: {}
+[31.853321] (-) TimerEvent: {}
+[31.953807] (-) TimerEvent: {}
+[32.054305] (-) TimerEvent: {}
+[32.155353] (-) TimerEvent: {}
+[32.255829] (-) TimerEvent: {}
+[32.356321] (-) TimerEvent: {}
+[32.456966] (-) TimerEvent: {}
+[32.557772] (-) TimerEvent: {}
+[32.658813] (-) TimerEvent: {}
+[32.759453] (-) TimerEvent: {}
+[32.859940] (-) TimerEvent: {}
+[32.960467] (-) TimerEvent: {}
+[33.060956] (-) TimerEvent: {}
+[33.161552] (-) TimerEvent: {}
+[33.262043] (-) TimerEvent: {}
+[33.362562] (-) TimerEvent: {}
+[33.463104] (-) TimerEvent: {}
+[33.563754] (-) TimerEvent: {}
+[33.664291] (-) TimerEvent: {}
+[33.765058] (-) TimerEvent: {}
+[33.865594] (-) TimerEvent: {}
+[33.966136] (-) TimerEvent: {}
+[34.066664] (-) TimerEvent: {}
+[34.167164] (-) TimerEvent: {}
+[34.267987] (-) TimerEvent: {}
+[34.368409] (-) TimerEvent: {}
+[34.468846] (-) TimerEvent: {}
+[34.569381] (-) TimerEvent: {}
+[34.669834] (-) TimerEvent: {}
+[34.770440] (-) TimerEvent: {}
+[34.870974] (-) TimerEvent: {}
+[34.971583] (-) TimerEvent: {}
+[35.072010] (-) TimerEvent: {}
+[35.172432] (-) TimerEvent: {}
+[35.272886] (-) TimerEvent: {}
+[35.373342] (-) TimerEvent: {}
+[35.473787] (-) TimerEvent: {}
+[35.494166] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[35.496085] (turtlesim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[35.500778] (turtlesim) CommandEnded: {'returncode': 2}
+[35.573984] (-) TimerEvent: {}
+[35.593526] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 2}
+[35.604706] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+/home/danny/ros2_ws/install/Danny_pkg/lib/Danny_pkg/Danny_node
+/home/danny/ros2_ws/install/Danny_pkg/share/ament_index/resource_index/package_run_dependencies/Danny_pkg
+/home/danny/ros2_ws/install/Danny_pkg/share/ament_index/resource_index/parent_prefix_path/Danny_pkg
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/environment/ament_prefix_path.sh
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/environment/ament_prefix_path.dsv
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/environment/path.sh
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/environment/path.dsv
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/local_setup.bash
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/local_setup.sh
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/local_setup.zsh
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/local_setup.dsv
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/package.dsv
+/home/danny/ros2_ws/install/Danny_pkg/share/ament_index/resource_index/packages/Danny_pkg
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/cmake/Danny_pkgConfig.cmake
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/cmake/Danny_pkgConfig-version.cmake
+/home/danny/ros2_ws/install/Danny_pkg/share/Danny_pkg/package.xml

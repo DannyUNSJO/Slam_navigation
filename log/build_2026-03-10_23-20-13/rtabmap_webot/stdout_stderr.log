@@ -1,0 +1,38 @@
+running egg_info
+writing ../../build/rtabmap_webot/rtabmap_webot.egg-info/PKG-INFO
+writing dependency_links to ../../build/rtabmap_webot/rtabmap_webot.egg-info/dependency_links.txt
+writing entry points to ../../build/rtabmap_webot/rtabmap_webot.egg-info/entry_points.txt
+writing requirements to ../../build/rtabmap_webot/rtabmap_webot.egg-info/requires.txt
+writing top-level names to ../../build/rtabmap_webot/rtabmap_webot.egg-info/top_level.txt
+reading manifest file '../../build/rtabmap_webot/rtabmap_webot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rtabmap_webot/rtabmap_webot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource
+copying resource/cartographer.lua -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource/.
+copying resource/nav2_params_iron.yaml -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource/.
+copying resource/default.rviz -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource/.
+copying resource/tiago_bringup_webots.urdf -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource/.
+copying resource/tiago_webots.urdf -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource/.
+copying resource/nav2_params.yaml -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource/.
+copying resource/sg_package -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource/.
+copying resource/ros2_control.yml -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource/.
+copying resource/slam_toolbox_params.yaml -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource/.
+copying resource/ros2_control_bringup.yml -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/resource/.
+copying package.xml -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot
+creating /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/launch
+copying launch/rtabmap_launch.py -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/launch
+creating /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/worlds
+copying worlds/default.wbt -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/worlds
+copying worlds/school_guide.wbt -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/worlds
+copying worlds/sg_NTUST.wbt -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/worlds
+copying worlds/sg_NTUST_HWH.wbt -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/worlds
+running install_egg_info
+Copying ../../build/rtabmap_webot/rtabmap_webot.egg-info to /home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/rtabmap_webot-0.0.1-py3.10.egg-info
+running install_scripts
+Installing buildings_marker script to /home/danny/ros2_ws/install/rtabmap_webot/lib/rtabmap_webot
+writing list of installed files to '/home/danny/ros2_ws/build/rtabmap_webot/install.log'

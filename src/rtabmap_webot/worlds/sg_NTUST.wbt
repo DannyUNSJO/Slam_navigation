@@ -1,0 +1,187 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/StraightRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/pal_robotics/tiago_lite/protos/TiagoLite.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "../protos/MyCyberboticsTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/geometries/protos/Rectangle.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.03589093727301374 -0.9899273652674445 0.13695127643187657 5.751557429897389
+  position -8.884501949656242 1.1100468931526968 9.371107418393922
+}
+Background {
+  skyColor [
+    0.5 0.7 1
+  ]
+  backUrl [
+    "ny.png"
+  ]
+  bottomUrl [
+    "nz.png"
+  ]
+  frontUrl [
+    "py.png"
+  ]
+  leftUrl [
+    "nx.png"
+  ]
+  rightUrl [
+    "px.png"
+  ]
+  topUrl [
+    "pz.png"
+  ]
+  luminosity 2
+}
+TexturedBackgroundLight {
+}
+Solid {
+  children [
+    Shape {
+      appearance Appearance {
+      }
+      geometry Plane {
+      }
+    }
+  ]
+  name "Ground_solid"
+  boundingObject Plane {
+    size 1000000 1000000
+  }
+}
+Solid {
+  translation -1.5651 -0.179642 -1
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "ground_grass_gen_08.png"
+          ]
+        }
+        textureTransform TextureTransform {
+          scale 10000 10000
+        }
+      }
+      geometry Plane {
+        size 100000 100000
+      }
+    }
+  ]
+  name "Ground_picture"
+  boundingObject Plane {
+    size 1000000 1000000
+  }
+}
+StraightRoadSegment {
+  width 2
+}
+TiagoLite {
+  hidden position_0_0 412.7213250109721
+  hidden position_0_1 373.8831719749107
+  hidden position_0_2 -0.0014996993823370944
+  hidden position_0_3 -0.0014963271335398495
+  hidden position_0_4 0.0020512919713154276
+  hidden position_0_5 0.0020512548431113557
+  hidden position_1_0 -8.24570799345051e-05
+  hidden translation_2 0 0 0.5999175429200655
+  hidden position_2_0 -2.847180305324554e-06
+  hidden rotation_3 0 0 -1 2.8471748166567527e-06
+  hidden position_3_0 -4.122399578264726e-06
+  hidden rotation_4 0.9999999999957514 2.061192217936423e-06 -2.0611997891274868e-06 1.570800000004244
+  hidden translation_13 -0.0010657782073240085 -2.352412542849791e-05 0.029186779988061712
+  hidden rotation_13 -0.2482428023211196 0.41736250321638035 -0.8741762133601637 7.43283645904178e-05
+  hidden rotation_17 0.4251482723260669 -0.6400179439940583 0.6400202949155432 2.337602841315803
+  hidden rotation_18 0.011896029667045711 -0.7070554475403229 0.7070580447047571 3.117801803856236
+  hidden rotation_19 0 0 -1 0.001499699382249292
+  hidden position_19_0 1400.3155114151225
+  hidden rotation_20 0.8471775677162837 0.3756921158665941 0.37569349586332107 4.547295456329663
+  hidden rotation_21 0 0 -1 0.0014963271335034394
+  hidden position_21_0 1391.2482352155987
+  hidden rotation_22 0.1695430274441938 -0.6968685651633479 -0.6968711249092145 3.47748341614911
+  hidden rotation_23 0 0 1 0.002051291971290807
+  hidden position_23_0 1408.2789209760758
+  hidden rotation_24 -0.8437455939514772 0.37953413183890883 0.379535525948171 1.739892606159642
+  hidden rotation_25 0 0 1 0.00205125484314382
+  hidden position_25_0 1392.2955390318639
+  hidden rotation_26 -0.2028557183228985 -0.6924037967445795 -0.6924063400904065 2.7413142273158835
+  translation 2.87366 3.06593 0.0908974
+  rotation -0.001685603708271448 0.0011917694308650902 0.999997869210611 0.022978842917667767
+  name "Tiago_Lite"
+  controller "<extern>"
+  supervisor TRUE
+  lidarSlot [
+    Lidar {
+      name "hokuyo"
+      horizontalResolution 660
+      fieldOfView 3.14
+      numberOfLayers 1
+      maxRange 6
+    }
+  ]
+}
+DEF 原成功大學校門(窮理致知牌坊) Solid {
+  translation 0.933185 -2.47623 2.84216e-14
+  children [
+    Wall {
+      translation 3.87288 0.48804 5.43
+      rotation 1 0 0 -1.5707953071795862
+      name "wall(2)"
+      size 0.2 1 3.9
+    }
+    Wall {
+      translation 3.87288 1.03804 -1.77636e-15
+      name "wall(1)"
+      size 0.2 1 5
+    }
+    Wall {
+      translation 3.87288 3.90804 -1.77636e-15
+      size 0.2 1 5
+    }
+  ]
+}
+DEF 綜合大樓 Solid {
+  translation 4.91218 4.74837 1.0019e-05
+  children [
+    DEF 綜合大樓招牌 Solid {
+      translation -0.725071 -0.0195 3.93
+      rotation -8.292749999969795e-07 -2.5685099999906444e-06 0.9999999999963576 3.14159
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Texts/綜合大樓.png"
+              ]
+            }
+          }
+          geometry Rectangle {
+            size 7 10
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    MyCyberboticsTower {
+      translation -1 0 0
+      scale 0.1 0.1 0.1
+    }
+    DEF 地板 Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "floor.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 6 6
+      }
+    }
+  ]
+  name "solid(1)"
+}

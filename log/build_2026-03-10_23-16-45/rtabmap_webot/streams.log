@@ -1,0 +1,19 @@
+[1.578s] Invoking command in '/home/danny/ros2_ws/src/rtabmap_webot': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_webot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_webot build --build-base /home/danny/ros2_ws/build/rtabmap_webot/build install --record /home/danny/ros2_ws/build/rtabmap_webot/install.log --single-version-externally-managed install_data
+[2.159s] running egg_info
+[2.160s] creating ../../build/rtabmap_webot/rtabmap_webot.egg-info
+[2.195s] writing ../../build/rtabmap_webot/rtabmap_webot.egg-info/PKG-INFO
+[2.196s] writing dependency_links to ../../build/rtabmap_webot/rtabmap_webot.egg-info/dependency_links.txt
+[2.196s] writing entry points to ../../build/rtabmap_webot/rtabmap_webot.egg-info/entry_points.txt
+[2.196s] writing requirements to ../../build/rtabmap_webot/rtabmap_webot.egg-info/requires.txt
+[2.197s] writing top-level names to ../../build/rtabmap_webot/rtabmap_webot.egg-info/top_level.txt
+[2.197s] writing manifest file '../../build/rtabmap_webot/rtabmap_webot.egg-info/SOURCES.txt'
+[2.247s] reading manifest file '../../build/rtabmap_webot/rtabmap_webot.egg-info/SOURCES.txt'
+[2.247s] adding license file 'LICENSE'
+[2.248s] writing manifest file '../../build/rtabmap_webot/rtabmap_webot.egg-info/SOURCES.txt'
+[2.249s] running build
+[2.249s] running build_py
+[2.249s] running install
+[2.255s] running install_lib
+[2.276s] running install_data
+[2.276s] error: can't copy 'resource/rtabmap_webot': doesn't exist or not a regular file
+[2.317s] Invoked command in '/home/danny/ros2_ws/src/rtabmap_webot' returned '1': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_webot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_webot build --build-base /home/danny/ros2_ws/build/rtabmap_webot/build install --record /home/danny/ros2_ws/build/rtabmap_webot/install.log --single-version-externally-managed install_data

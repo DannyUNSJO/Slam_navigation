@@ -1,0 +1,5700 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/Building.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/UrbanFence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/BusStop.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/SnackStand.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Tree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/RoadIntersection.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/StraightRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/geometries/protos/Extrusion.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Oak.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/stairs/protos/StraightStairs.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/stairs/protos/StraightStairsRail.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/VarnishedPine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/plants/protos/PottedTree.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.03967879522900188 -0.0029596148298440448 -0.9992081033945001 2.3671941357146444
+  position 7.739806766812297 9.886138722154131 1.7152135421632848
+}
+Background {
+  skyColor [
+    0.333333 0.666667 1
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+  ]
+}
+Solid {
+  translation -23.2205 13.12170000002781 0.09960759999999999
+  rotation 2.1506549166342475e-17 6.263460621450657e-17 1 1.5938163412073914
+  children [
+    DEF box Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  boundingObject USE box
+  physics Physics {
+  }
+}
+DEF TR Group {
+  children [
+    Solid {
+      translation -26.1382 16.4172 0.01
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.333333 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Plane {
+            size 13 23
+          }
+        }
+      ]
+      name "TR_area"
+    }
+    Solid {
+      translation -19.9496 24.1923 0.242514
+      rotation -1 0 0 -0.523595307179586
+      children [
+        Shape {
+          geometry Plane {
+            size 0.6 1
+          }
+        }
+      ]
+      name "solid(31)"
+    }
+    Solid {
+      translation -32.01 24.87 1.74
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.5 0.5 2.5
+          }
+        }
+      ]
+      name "solid(24)"
+    }
+    Solid {
+      translation -29 24.87 1.74
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.5 0.5 2.5
+          }
+        }
+      ]
+      name "solid(25)"
+    }
+    Solid {
+      translation -26 24.87 1.74
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.5 0.5 2.5
+          }
+        }
+      ]
+      name "solid(26)"
+    }
+    Solid {
+      translation -23 24.87 1.74
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.5 0.5 2.5
+          }
+        }
+      ]
+      name "solid(27)"
+    }
+    Solid {
+      translation -20.5 24.87 1.74
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.5 0.5 2.5
+          }
+        }
+      ]
+      name "solid(28)"
+    }
+    Solid {
+      translation -30.69 28.12 1.74
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0.666667 1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 2 1 2.5
+          }
+        }
+      ]
+      name "solid(23)"
+    }
+    Solid {
+      translation -22.99 28.12 1.74
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0.666667 1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 2 1 2.5
+          }
+        }
+      ]
+      name "solid(22)"
+    }
+    Solid {
+      translation -25.44 26.62 0.24
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 12.5 4 0.5
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    Solid {
+      translation -26.86 28.84 0.09
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3 1 0.2
+          }
+        }
+      ]
+      name "solid(29)"
+    }
+    Solid {
+      translation -18.69 26.12 0.09
+      rotation 0 0 1 1.5708
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 2 1 0.2
+          }
+        }
+      ]
+      name "solid(32)"
+    }
+    Solid {
+      translation -26.86 28.5 0.28
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3 1 0.2
+          }
+        }
+      ]
+      name "solid(30)"
+    }
+    Solid {
+      translation -19.01 26.12 0.28
+      rotation 0 0 1 1.5708
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0.666667 0
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 2 1 0.2
+          }
+        }
+      ]
+      name "solid(33)"
+    }
+    Building {
+      translation -32.26 28.07 30
+      rotation 0 0 -1 1.5708
+      name "TR(2)"
+      floorNumber 1
+      corners [
+        0 0
+        0 3
+        3 3
+        3 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.666667 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Solid {
+      children [
+        Shape {
+          geometry Box {
+            size 0.1 0.1 0.1
+          }
+        }
+      ]
+      name "solid(20)"
+    }
+    Building {
+      translation -32.26 28.63 3
+      rotation 0 0 -1 1.5708
+      name "TR(1)"
+      floorNumber 9
+      corners [
+        0 0
+        0 13.5
+        4 13.5
+        4 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.666667 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Tree {
+      translation -31 29.7 0
+      rotation 0 0 1 0.6544996938995746
+      name "tree(2)"
+      scale 0.8 0.5 4
+    }
+    Tree {
+      translation -32.1 29.5 0
+      rotation 0 0 1 0.6544996938995746
+      name "tree(2)"
+      scale 0.8 0.5 4
+    }
+    Tree {
+      translation -29.8 29.5 0
+      rotation 0 0 1 0.6544996938995746
+      name "tree(2)"
+      scale 0.8 0.5 4
+    }
+    Tree {
+      translation -24 29.5 0
+      rotation 0 0 1 0.6544996938995746
+      name "tree(2)"
+      scale 0.8 0.5 4
+    }
+    Tree {
+      translation -22 29.5 0
+      rotation 0 0 1 0.6544996938995746
+      name "tree(2)"
+      scale 0.8 0.5 4
+    }
+    Tree {
+      translation -20 29.5 0
+      rotation 0 0 1 0.6544996938995746
+      name "tree(2)"
+      scale 0.8 0.5 4
+    }
+    Tree {
+      translation -32 28.4 0
+      rotation 0 0 1 0.6544996938995746
+      name "tree(2)"
+      scale 0.8 0.5 4
+    }
+  ]
+}
+DEF AAO Group {
+  children [
+    Building {
+      translation -11 13 0
+      rotation 0 0 -1 1.5708
+      name "AAO2"
+      floorNumber 1
+      corners [
+        0 0
+        0 1
+        2 1
+        2 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.666667 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -10 14 0
+      rotation 0 0 -1 1.5708
+      name "Main_AAO"
+      corners [
+        0 0
+        0 4
+        -2 4
+        -2 7
+        4 7
+        4 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.333333 1 1
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+Building {
+  translation -6.60498 25.7027 -3.58824e-13
+  rotation 0 0 -1 1.5708
+  name "IA"
+  floorHeight 2
+  floorNumber 10
+  corners [
+    0 2
+    2 2
+    2 -8
+    0 -8
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.666667 0.666667 0.498039
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+DEF T3 Group {
+  children [
+    Building {
+      translation -1.5 14 0
+      rotation 0 0 -1 1.5708
+      name "T3_floor1"
+      floorHeight 4
+      floorNumber 1
+      corners [
+        0 0
+        0 3
+        6 3
+        6 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.333333 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -1.5 7.98 4
+      rotation 0 0 -1 1.5708
+      name "T3_floor1(1)"
+      floorNumber 2
+      corners [
+        0 0
+        0 3
+        8 3
+        8 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.333333 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -1.5 14 4
+      rotation 0 0 -1 1.5708
+      name "T3_up"
+      floorNumber 6
+      corners [
+        0 0
+        0 3
+        6 3
+        6 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+DEF E1 Group {
+  children [
+    Solid {
+      translation -5.95844 -6.50184 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.333333 0.498039
+            baseColorMap ImageTexture {
+              url [
+                "MapPicture/Grassland.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          geometry Plane {
+            size 12 6
+          }
+        }
+      ]
+      name "E1_WaterPool"
+    }
+    Building {
+      translation -13 -10 0
+      rotation 0 0 1 -1.5707953071795862
+      name "E1_Right"
+      floorHeight 4
+      floorNumber 2
+      corners [
+        0 1
+        0 13
+        3 13
+        3 1
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.666667 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -13 0 0
+      rotation 0 0 1 -1.5707953071795862
+      name "E1_Left"
+      floorHeight 4
+      floorNumber 2
+      corners [
+        0 1
+        0 13
+        3 13
+        3 1
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.666667 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -15 0 0
+      rotation 0 0 1 -1.5707953071795862
+      name "Main_E1"
+      floorNumber 4
+      corners [
+        0 0
+        0 2
+        13 2
+        13 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.666667 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -13 0 3
+      rotation 0 0 1 -1.5707953071795862
+      name "Main_E1(1)"
+      corners [
+        0 0
+        0 1
+        13 1
+        13 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.666667 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+DEF IB Group {
+  children [
+    Building {
+      translation -31.5 -30 0
+      rotation 0 0 -1 1.5708
+      name "IB_Building6"
+      corners [
+        -1 0
+        -1 1
+        4 1
+        4 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -32 -30 0
+      rotation 0 0 -1 1.5708
+      name "IB_Building5"
+      floorNumber 2
+      corners [
+        -1 0
+        -1 0.5
+        4 0.5
+        4 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -30.5 -30 0
+      rotation 0 0 -1 1.5708
+      name "IB_Building"
+      floorNumber 12
+      corners [
+        -1 0
+        -1 2
+        6 2
+        6 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -20.5 -33 0
+      rotation 0 0 -1 1.5708
+      name "IB_Building8"
+      floorNumber 12
+      corners [
+        0 0
+        0 2
+        3 2
+        3 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -31.5 -28 0
+      rotation 0 0 -1 1.5708
+      name "IB_Building7"
+      corners [
+        0 0
+        0 5
+        1 5
+        1 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -28.5 -30 0
+      rotation 0 0 -1 1.5708
+      name "IB_Building4"
+      corners [
+        -1 0
+        -1 2
+        4 2
+        4 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -22.5 -34 0
+      rotation 0 0 -1 1.5708
+      name "IB_Building3"
+      floorNumber 1
+      corners [
+        0 0
+        0 2
+        2 2
+        2 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -28.5 -34 3
+      rotation 0 0 -1 1.5708
+      name "IB_Building2"
+      floorNumber 11
+      corners [
+        0 0
+        0 8
+        2 8
+        2 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.666667 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+Solid {
+  translation -26.2102 15.1704 0.052
+  rotation 0 0 1 -1.5620653071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "MapPicture/PlayGround3.png"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 19 12
+      }
+    }
+  ]
+  name "Playground"
+}
+DirectionalLight {
+  direction -0.5 -1 -0.5
+  intensity 4
+  castShadows TRUE
+}
+Solid {
+  translation -1.99971 5.04088 -0.05
+  rotation 1 0 0 4.6928012867022945e-06
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.7 0.7 0.7
+        roughness 1
+        metalness 0
+      }
+      geometry Mesh {
+        url [
+          "MyPicture/ChangeSide.obj"
+        ]
+      }
+    }
+  ]
+  name "Hidefloor"
+  boundingObject Box {
+    size 100 100 0.1
+  }
+}
+DEF Road Group {
+  children [
+    RoadIntersection {
+      translation -16.8 -14.7 0.05
+      rotation 0 0 1 0.7853996938995746
+      name "road intersection(1)"
+      roadsWidth 2
+    }
+    RoadIntersection {
+      translation -16.8 -26.2 0.05
+      rotation 0 0 1 0.7853996938995746
+      name "road intersection(2)"
+      roadsWidth 2
+    }
+    RoadIntersection {
+      translation -16.8 -26.2 0.05
+      rotation 0 0 1 0.7853996938995746
+      roadsWidth 2
+    }
+    StraightRoadSegment {
+      translation -11 -26.2 0.05
+      name "road(1)"
+      width 2
+    }
+    StraightRoadSegment {
+      translation -1 -26.2 0.05
+      name "road(2)"
+      width 2
+    }
+    StraightRoadSegment {
+      translation 1 -26.2 0.05
+      name "road(3)"
+      width 2
+    }
+    StraightRoadSegment {
+      translation -11 -14.7 0.05
+      name "road(4)"
+      width 2
+    }
+    StraightRoadSegment {
+      translation -8 -14.7 0.05
+      name "road(5)"
+      width 2
+    }
+    StraightRoadSegment {
+      translation -16.8 -9 0.05
+      rotation 0 0 1 1.5707996938995747
+      name "road(6)"
+      width 2
+    }
+  ]
+}
+DEF PlaygroundTree Group {
+  children [
+    Tree {
+      translation -19 6 0
+      rotation 0 0 1 0.3926996938995747
+      name "tree(1)"
+      scale 0.5 0.5 3
+    }
+    Tree {
+      translation -19 8 0
+      rotation 0 0 1 0.3926996938995747
+      name "tree(2)"
+      scale 0.5 0.5 3
+    }
+    Tree {
+      translation -19 10 0
+      rotation 0 0 1 0.3926996938995747
+      name "tree(3)"
+      scale 0.5 0.5 3
+    }
+    Tree {
+      translation -19 14 0
+      rotation 0 0 1 0.3926996938995747
+      name "tree(5)"
+      scale 0.5 0.5 3
+    }
+    Tree {
+      translation -19 16 0
+      rotation 0 0 1 0.3926996938995747
+      name "tree(6)"
+      scale 0.5 0.5 3
+    }
+    Tree {
+      translation -19 18 0
+      rotation 0 0 1 0.3926996938995747
+      name "tree(7)"
+      scale 0.5 0.5 3
+    }
+    Tree {
+      translation -19 20 0
+      rotation 0 0 1 0.3926996938995747
+      name "tree(8)"
+      scale 0.5 0.5 3
+    }
+    Tree {
+      translation -19 22 0
+      rotation 0 0 1 0.3926996938995747
+      name "tree(9)"
+      scale 0.5 0.5 3
+    }
+    Tree {
+      translation -15 21 0
+      rotation 0 0 1 0.3926996938995747
+      name "Volley_tree(1)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -15.5 19 0
+      rotation 0 0 1 0.3926996938995747
+      name "Volley_tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -15 18 0
+      rotation 0 0 1 0.3926996938995747
+      name "Volley_tree(3)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -15.5 16.5 0
+      rotation 0 0 1 0.3926996938995747
+      name "Volley_tree(4)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -15.5 6 0
+      rotation 0 0 1 0.3926996938995747
+      name "Volley_tree(5)"
+      scale 0.6 0.7 5
+    }
+    Tree {
+      translation -15.8 4 0
+      rotation 0 0 1 0.3926996938995747
+      name "Volley_tree(6)"
+      scale 0.6 0.7 5
+    }
+  ]
+}
+Solid {
+  name "BoundingTwo"
+  boundingObject Box {
+    size 100 100 0.1
+  }
+}
+Solid {
+  translation -24.9787 -31.9934 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.333333 0.498039
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 15 10
+      }
+    }
+  ]
+  name "IB_area"
+}
+Solid {
+  translation -25.0209 -20.4854 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.333333 0.498039
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 15 10
+      }
+    }
+  ]
+  name "AD_area"
+}
+Solid {
+  translation -25.1229 -5.20227 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.333333 0.498039
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 15 18
+      }
+    }
+  ]
+  name "T4_RB_T1_Library_area"
+}
+DEF LeftFance Group {
+  children [
+    UrbanFence {
+      translation -32.5 -15.2 0
+      name "F(1)"
+    }
+    UrbanFence {
+      translation -32.5 -13.6 0
+      name "F(2)"
+    }
+    UrbanFence {
+      translation -32.5 -12 0
+      name "F(3)"
+    }
+    UrbanFence {
+      translation -32.5 -10.4 0
+      name "F(4)"
+    }
+    UrbanFence {
+      translation -32.5 -8.8 0
+      name "F(5)"
+    }
+    UrbanFence {
+      translation -32.5 -7.2 0
+      name "F(6)"
+    }
+    UrbanFence {
+      translation -32.5 -5.6 0
+      name "F(7)"
+    }
+    UrbanFence {
+      translation -32.5 -4 0
+      name "F(8)"
+    }
+    UrbanFence {
+      translation -32.5 -2.4 0
+      name "F(9)"
+    }
+    UrbanFence {
+      translation -32.5 -0.8 0
+      name "F(10)"
+    }
+    UrbanFence {
+      translation -32.5 1.7 0
+      name "F(11)"
+    }
+    UrbanFence {
+      translation -32.5 3.3 0
+      name "F(12)"
+    }
+    UrbanFence {
+      translation -32.5 4.9 0
+      name "F(13)"
+    }
+    UrbanFence {
+      translation -32.5 6.5 0
+      name "F(14)"
+    }
+    UrbanFence {
+      translation -32.5 8.1 0
+      name "F(15)"
+    }
+    UrbanFence {
+      translation -32.5 9.7 0
+      name "F(16)"
+    }
+    UrbanFence {
+      translation -32.5 11.3 0
+      name "F(17)"
+    }
+    UrbanFence {
+      translation -32.5 12.9 0
+      name "F(18)"
+    }
+    UrbanFence {
+      translation -32.5 14.5 0
+      name "F(19)"
+    }
+    UrbanFence {
+      translation -32.5 16.1 0
+      name "F(20)"
+    }
+    UrbanFence {
+      translation -32.5 17.7 0
+      name "F(21)"
+    }
+    UrbanFence {
+      translation -32.5 21.5 0
+      name "F(22)"
+    }
+    UrbanFence {
+      translation -32.5 25.3 0
+      name "F(23)"
+    }
+    UrbanFence {
+      translation -32.5 26.9 0
+      name "F(24)"
+    }
+    SnackStand {
+      translation -14.6 9.1 0
+    }
+    SnackStand {
+      translation -14.6 11.93 0
+      name "snack stand(1)"
+      color "green"
+    }
+  ]
+}
+DEF RightFence Group {
+  children [
+    UrbanFence {
+      translation -32.5 -25.3 0
+      rotation -2.914190039964487e-08 0.01854570025433118 0.9998280137113961 -5.307179586466759e-06
+      name "F(26)"
+    }
+    UrbanFence {
+      translation -32.5 -26.9 0
+      rotation -2.914190039964487e-08 0.01854570025433118 0.9998280137113961 -5.307179586466759e-06
+      name "F(27)"
+    }
+    UrbanFence {
+      translation -32.5 -28.5 0
+      rotation -2.914190039964487e-08 0.01854570025433118 0.9998280137113961 -5.307179586466759e-06
+      name "F(28)"
+    }
+    UrbanFence {
+      translation -32.5 -30.1 0
+      rotation -2.914190039964487e-08 0.01854570025433118 0.9998280137113961 -5.307179586466759e-06
+      name "F(29)"
+    }
+    UrbanFence {
+      translation -32.5 -31.7 0
+      rotation -2.914190039964487e-08 0.01854570025433118 0.9998280137113961 -5.307179586466759e-06
+      name "F(30)"
+    }
+    UrbanFence {
+      translation -32.5 -33.3 0
+      rotation -2.914190039964487e-08 0.01854570025433118 0.9998280137113961 -5.307179586466759e-06
+      name "F(31)"
+    }
+    UrbanFence {
+      translation -32.5 -34.9 0
+      rotation -2.914190039964487e-08 0.01854570025433118 0.9998280137113961 -5.307179586466759e-06
+      name "F(32)"
+    }
+    UrbanFence {
+      translation -31 -37.5 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(33)"
+    }
+    UrbanFence {
+      translation -29.4 -37.7 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(34)"
+    }
+    UrbanFence {
+      translation -27.8 -37.9 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(35)"
+    }
+    UrbanFence {
+      translation -26.2 -38.1 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(36)"
+    }
+    UrbanFence {
+      translation -21.4 -38.7 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(37)"
+    }
+    UrbanFence {
+      translation -19.8 -38.9 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(38)"
+    }
+    UrbanFence {
+      translation -14.5 -39.6 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(39)"
+    }
+    UrbanFence {
+      translation -12.9 -39.8 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(40)"
+    }
+    UrbanFence {
+      translation -11.3 -40 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(41)"
+    }
+    UrbanFence {
+      translation -9.7 -40.2 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(42)"
+    }
+    UrbanFence {
+      translation -8.1 -40.4 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(43)"
+    }
+    UrbanFence {
+      translation -6.5 -40.6 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(44)"
+    }
+    UrbanFence {
+      translation -4.9 -40.8 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(45)"
+    }
+    UrbanFence {
+      translation -3.3 -41 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(46)"
+    }
+    UrbanFence {
+      translation -1.7 -41.2 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(47)"
+    }
+    UrbanFence {
+      translation -0.1 -41.4 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(48)"
+    }
+    UrbanFence {
+      translation 4.1 -42 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(49)"
+    }
+    UrbanFence {
+      translation 5.7 -42.2 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(50)"
+    }
+    UrbanFence {
+      translation 7.3 -42.4 0
+      rotation 4.92128e-08 6.41355e-08 -1 -1.4398996938995747
+      name "F(51)"
+    }
+    UrbanFence {
+      translation 8.2 -41.7 0
+      rotation -5.29596e-08 -6.97232e-09 1 3.0107
+      name "F(2)"
+    }
+    UrbanFence {
+      translation 8.4 -40.1 0
+      rotation -5.29596e-08 -6.97232e-09 1 3.0107
+      name "F(2)"
+    }
+    UrbanFence {
+      translation 8.6 -38.5 0
+      rotation -5.29596e-08 -6.97232e-09 1 3.0107
+      name "F(2)"
+    }
+  ]
+}
+DEF Library Group {
+  children [
+    Building {
+      translation -32 -10.5 0
+      rotation 0 0 -1 1.5708
+      name "Main_Library"
+      floorHeight 4
+      corners [
+        0 0
+        0 11
+        3 11
+        3 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -30 -7.5 0
+      rotation 0 0 -1 1.5708
+      name "Library2"
+      floorHeight 4
+      corners [
+        0 -2
+        0 9
+        2 9
+        2 -2
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -30 -9.5 0
+      rotation 0 0 -1 1.5708
+      name "LibraryBridge"
+      floorHeight 4
+      corners [
+        0 0.5
+        0 3
+        1 3
+        1 0.5
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+BusStop {
+  translation -32.8 19.6 0
+  rotation 0 0 1 3.14159
+  scale 0.35
+  name "bus stop1"
+}
+Solid {
+  translation -11.3 19.5 0.07
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "MapPicture/volleyball_court.png"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 7 4
+      }
+    }
+  ]
+  name "TR_area(1)"
+}
+BusStop {
+  translation -32.8 23.4 0
+  rotation 0 0 1 3.14159
+  scale 0.35
+  name "bus stop2"
+}
+DEF Dorm2_Square Group {
+  children [
+    Solid {
+      translation -14.9 -24.3 0.74217
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(1)"
+    }
+    Solid {
+      translation -14.9 -23 0.74217
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(2)"
+    }
+    Solid {
+      translation -14.9 -21.7 0.74217
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(3)"
+    }
+    Solid {
+      translation -14.9 -20.4 0.74217
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(4)"
+    }
+    Solid {
+      translation -14.9 -19.1 0.74217
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(5)"
+    }
+    Solid {
+      translation -14.9 -17.8 0.74217
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(6)"
+    }
+    Solid {
+      translation -14.9 -16.5 0.74217
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(7)"
+    }
+    Solid {
+      translation -15.4 -17.14 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(1)"
+    }
+    Solid {
+      translation -15.4 -18.5 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(2)"
+    }
+    Solid {
+      translation -15.4 -19.9 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(3)"
+    }
+    Solid {
+      translation -15.4 -21.3 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(4)"
+    }
+    Solid {
+      translation -15.4 -22.7 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(5)"
+    }
+    Solid {
+      translation -15.4 -24.1 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(6)"
+    }
+    Solid {
+      translation -6.65274 -20.2738 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.333333 0.498039
+            baseColorMap ImageTexture {
+              url [
+                "MapPicture/Grassland.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+          }
+          geometry Plane {
+            size 17 9
+          }
+        }
+      ]
+      name "E1_area"
+    }
+    Tree {
+      translation -12.5 -23.7 0
+      rotation 0 0 1 0.5235996938995747
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -12 -16.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -10.5 -16.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -9 -16.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -7.5 -16.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -6 -16.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -4.5 -16.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -3 -16.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -1.5 -16.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -13.5 -16.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -11 -23.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -9.5 -23.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -8 -23.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -6.5 -23.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -5 -23.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -3.5 -23.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+    Tree {
+      translation -2 -23.7 0
+      rotation 0 0 1 0.5235996938995747
+      name "tree(2)"
+      scale 0.5 0.5 4
+    }
+  ]
+}
+Solid {
+  translation 6 -32 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.333333 0.498039
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 5 10
+      }
+    }
+  ]
+  name "E1_area(1)"
+}
+DEF Dorm23 Group {
+  children [
+    PottedTree {
+      translation 10.9 -21.8 0
+    }
+    PottedTree {
+      translation 10.9 -21.4 0
+      name "potted tree(1)"
+    }
+    PottedTree {
+      translation 10.9 -21 0
+      name "potted tree(2)"
+    }
+    PottedTree {
+      translation 10.9 -20.6 0
+      name "potted tree(3)"
+    }
+    PottedTree {
+      translation 10.9 -20.2 0
+      name "potted tree(4)"
+    }
+    PottedTree {
+      translation 10.9 -17.7 0
+      name "potted tree(5)"
+    }
+    PottedTree {
+      translation 10.9 -17.3 0
+      name "potted tree(6)"
+    }
+    PottedTree {
+      translation 10.9 -16.9 0
+      name "potted tree(7)"
+    }
+    PottedTree {
+      translation 10.9 -16.5 0
+      name "potted tree(8)"
+    }
+    PottedTree {
+      translation 10.9 -16.1 0
+      name "potted tree(9)"
+    }
+    Solid {
+      translation 3.21704 -4.6207 0.05
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.333333 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry IndexedFaceSet {
+            coord Coordinate {
+              point [
+                0 0 0
+                0 8 0
+                21 6 0
+                21 0 0
+              ]
+            }
+            coordIndex [
+              3, 2, 1, 0, -1
+            ]
+          }
+        }
+      ]
+      name "Dorm23_area"
+    }
+  ]
+}
+Solid {
+  translation 7.50156 1.06816 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.333333 0.498039
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 6 10
+      }
+    }
+  ]
+  name "Dorm1_area"
+}
+Solid {
+  translation -6.61014 -33.0286 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.333333 0.498039
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 20 12
+      }
+    }
+  ]
+  name "EE_T2_E2_MA_area"
+}
+Building {
+  translation -15 -28 0
+  rotation 0 0 -1 1.5708
+  name "E2"
+  floorNumber 8
+  corners [
+    0 0
+    0 2
+    10 2
+    10 0
+  ]
+  wallAppearance PBRAppearance {
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+Building {
+  translation -13 -35 0
+  rotation 0 0 -1 1.5708
+  name "T2"
+  floorNumber 5
+  corners [
+    0 0
+    0 16
+    3 16
+    3 0
+  ]
+  wallAppearance PBRAppearance {
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+Building {
+  translation -11 -28 0
+  rotation 0 0 -1 1.5708
+  name "MA"
+  floorNumber 5
+  corners [
+    0 0
+    0 12
+    2 12
+    2 0
+  ]
+  wallAppearance PBRAppearance {
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+Building {
+  translation -6 -30 6
+  rotation 0 0 -1 1.5708
+  name "MA_Bridge"
+  floorHeight 2
+  floorNumber 1
+  corners [
+    0 0
+    0 2
+    6 2
+    6 0
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.333333 0.666667 0.498039
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+DEF EE Group {
+  children [
+    Building {
+      translation 3 -28 0
+      rotation 0 0 -1 1.5708
+      name "EE"
+      floorNumber 8
+      corners [
+        0 0
+        0 3
+        10 3
+        10 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    DEF Stair3 Solid {
+      translation -2.5 -34.02 0
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Solid {
+          translation -6.5 7.19 0.1
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Box {
+                size 1.5 1.5 0.2
+              }
+            }
+          ]
+          name "solid(13)"
+        }
+        Solid {
+          translation -6.08 7.19 0.5
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Box {
+                size 1.5 1.5 0.2
+              }
+            }
+          ]
+          name "solid(12)"
+        }
+        Solid {
+          translation -6.4 7.19 0.3
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Box {
+                size 1.3 1.5 0.2
+              }
+            }
+          ]
+          name "solid(11)"
+        }
+        Solid {
+          translation -6.5 7.99 0.37
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Box {
+                size 1 0.1 0.65
+              }
+            }
+          ]
+          name "solid(2)"
+        }
+        Solid {
+          translation -6.5 6.39 0.37
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Box {
+                size 1 0.1 0.65
+              }
+            }
+          ]
+          name "solid(1)"
+        }
+      ]
+      name "solid(12)"
+    }
+  ]
+}
+Solid {
+  translation -14.9003 26.3218 0.05
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.333333 0.498039
+        roughness 1
+        metalness 0
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 0 0
+            3 17 0
+            23 17 0
+            23 0 0
+          ]
+        }
+        coordIndex [
+          3, 2, 1, 0, -1
+        ]
+      }
+    }
+  ]
+  name "Gym_area"
+}
+Building {
+  translation -31.5 0.5 0
+  rotation 0 0 -1 1.5708
+  name "RB"
+  floorNumber 9
+  corners [
+    0 0
+    0 4
+    2 4
+    2 2
+    8 2
+    8 0
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.666667 0.333333 0.498039
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+Building {
+  translation -32 3.5 0
+  rotation 0 0 -1 1.5708
+  name "T1"
+  floorNumber 4
+  corners [
+    0 0
+    0 11
+    2 11
+    2 0
+  ]
+  wallAppearance PBRAppearance {
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+DEF T4 Group {
+  children [
+    Building {
+      translation -21 3.5 6
+      rotation 0 0 -1 1.5708
+      name "T4"
+      floorNumber 6
+      corners [
+        0 0
+        0 3
+        12 3
+        12 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -20 0.5 0
+      rotation 0 0 -1 1.5708
+      name "T4_Right"
+      floorNumber 2
+      corners [
+        0 0
+        0 2
+        2 2
+        2 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -20 -6.5 0
+      rotation 0 0 -1 1.5708
+      name "T4_Left"
+      floorNumber 2
+      corners [
+        0 0
+        0 2
+        2 2
+        2 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+Building {
+  translation -21 -2.5 0
+  rotation 0 0 -1 1.5708
+  name "AU"
+  floorNumber 1
+  corners [
+    0 0
+    2 0
+    2 -2
+    4 -4
+    3 -5
+    1.5 -6
+    0.5 -6
+    -1 -5
+    -2 -4
+    0 -2
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 1 0.666667 0.498039
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+Building {
+  translation -20.6 -16.4 0
+  rotation 0 0 -1 1.5708
+  name "AD"
+  floorHeight 4
+  floorNumber 2
+  corners [
+    0 0
+    0 2
+    8 2
+    8 0
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 1 0.666667 0.498039
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+DEF Guard_room Group {
+  children [
+    Building {
+      translation -32.5 -17.5 2
+      rotation -0.577349935856137 0.577349935856137 -0.5773509358560258 2.0944
+      name "Guard_roomTop"
+      floorHeight 2
+      floorNumber 1
+      corners [
+        0 0
+        0 0.1
+        1 0.1
+        1 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -32.5 -18.4 0
+      rotation 0 0 -1 1.5708
+      name "Guard_room2"
+      floorHeight 2
+      floorNumber 1
+      corners [
+        0 0
+        0 1
+        0.1 1
+        0.1 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -32.5 -16 0
+      rotation 0 0 -1 1.5708
+      name "Guard_room"
+      floorHeight 2
+      floorNumber 1
+      corners [
+        0 0
+        0 2
+        1.5 2
+        1.5 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+Building {
+  translation -32.6 -21 0
+  rotation 0 0 -1 1.5708
+  name "NTUST"
+  floorHeight 2
+  floorNumber 1
+  corners [
+    0 0
+    0 0.2
+    3.5 0.2
+    3.5 0
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 1 0.666667 0.498039
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+DEF Gym Group {
+  children [
+    Building {
+      translation -8 23 0
+      rotation 0 0 -1 1.5708
+      name "Gym_floor1"
+      floorNumber 1
+      corners [
+        0 0
+        0 5
+        7 5
+        7 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.666667 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation -8 23 3
+      rotation 0 0 -1 1.5708
+      name "Gym_floor2"
+      floorHeight 4
+      floorNumber 1
+      corners [
+        0 0
+        0 5
+        7 5
+        7 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 1 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+Building {
+  translation -3 24.5 0
+  rotation 0 0 -1 1.5708
+  name "Swimming_pool"
+  floorHeight 4
+  floorNumber 1
+  corners [
+    0 0
+    0 4
+    7 4
+    7 0
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.333333 1 1
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+Building {
+  translation -1 16 0
+  rotation 0 0 -1 1.5708
+  name "International_Building"
+  floorNumber 6
+  corners [
+    0 0
+    0 2.5
+    2 2.5
+    2 0
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.333333 0.666667 0.498039
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+DEF Dorm3 Group {
+  children [
+    Building {
+      translation 4 -8 0
+      rotation 0 0 -1 1.5708
+      name "Dorm3_Building1"
+      floorNumber 11
+      corners [
+        0 0
+        0 6
+        3 6
+        3 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.333333 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation 5.5 -11 0
+      rotation 0 0 -1 1.5708
+      name "Dorm3_Building2"
+      floorNumber 1
+      corners [
+        0 0
+        0 2
+        2 2
+        2 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.333333 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+DEF Dorm1 Group {
+  children [
+    Building {
+      translation 5.5 5 0
+      rotation 0 0 -1 1.5708
+      name "Dorm1"
+      floorNumber 14
+      corners [
+        0 0
+        0 4
+        2 4
+        2 2
+        3 2
+        3 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.333333 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation 6.2 2 3
+      rotation 0 0 -1 1.5708
+      name "Doem2"
+      floorNumber 13
+      corners [
+        0 0
+        0 0.5
+        1 0.5
+        1 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.333333 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation 5.5 1 0
+      rotation 0 0 -1 1.5708
+      name "Dorm3"
+      floorNumber 14
+      corners [
+        0 0
+        0 2
+        1 2
+        1 3
+        4 3
+        4 0
+      ]
+      wallAppearance PBRAppearance {
+        baseColor 0.333333 0.666667 0.498039
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+Building {
+  translation 4 -16 0
+  rotation 0 0 -1 1.5708
+  name "Dorm2"
+  floorNumber 14
+  corners [
+    0 0
+    0 4
+    2 4
+    2 6
+    4 6
+    4 4
+    6 4
+    6 0
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.333333 0.666667 0.498039
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+Building {
+  translation -3 12 3.5
+  rotation 0 0 -1 1.5708
+  name "Air_Bridge"
+  floorHeight 2
+  floorNumber 1
+  corners [
+    0 0
+    0 1.5
+    2 1.5
+    2 0
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.666667 0.666667 1
+    roughness 1
+  }
+  groundFloor [
+    ""
+    ""
+  ]
+  roofShape "flat roof"
+}
+DEF AD_Square Group {
+  children [
+    Tree {
+      translation -24.5 -24 0
+      rotation 0 0 1 0.7853996938995746
+      name "tree(1)"
+      scale 1 1 3
+    }
+    Tree {
+      translation -24.5 -22 0
+      rotation 0 0 1 0.7853996938995746
+      name "tree(2)"
+      scale 1 1 3
+    }
+    Tree {
+      translation -24.5 -20 0
+      rotation 0 0 1 0.7853996938995746
+      name "tree(3)"
+      scale 1 1 3
+    }
+    Tree {
+      translation -24.5 -18 0
+      rotation 0 0 1 0.7853996938995746
+      name "tree(4)"
+      scale 1 1 3
+    }
+    Solid {
+      translation -29.1426 -19.8023 0
+      rotation 5.199499999920516e-06 -1.8811599999712429e-06 0.9999999999847132 1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "MapPicture/Grassland.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            textureTransform TextureTransform {
+              scale 0.2 0.5
+            }
+          }
+          geometry Extrusion {
+            crossSection [
+              0 0
+              -2 1
+              -3 2
+              -3 4
+              5 4
+              5 2
+              4 1
+              2 0
+              0 0
+            ]
+            spine [
+              0 0 0
+              0 0 0.1
+            ]
+          }
+        }
+      ]
+      name "Square1"
+    }
+    Solid {
+      translation -28.9 -19.8 0.02
+      rotation 5.199499999920516e-06 -1.8811599999712429e-06 0.9999999999847132 1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.333333 1
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              0 0
+              -1 0.5
+              0 2
+              0.5 1.5
+              1.5 1.5
+              2 2
+              3 0.5
+              2 0
+              0 0
+            ]
+            spine [
+              0 0 0
+              0 0 0.1
+            ]
+          }
+        }
+      ]
+      name "Square_water"
+    }
+  ]
+}
+DEF E1_Aisle Group {
+  children [
+    DEF Pillar Solid {
+      translation -14.9 -15.65 0.74217
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    DEF Pillar Solid {
+      translation -13.1824 -26.6404 -0.09
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    DEF Pillar Solid {
+      translation -13.1824 -25.1304 -0.09
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(16)"
+    }
+    DEF Pillar Solid {
+      translation -14.7524 -25.1304 -0.09
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(19)"
+    }
+    DEF Pillar Solid {
+      translation -13.2 -23.7 -0.09
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(18)"
+    }
+    DEF Pillar Solid {
+      translation -13.1824 -26.6404 -0.09
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(17)"
+    }
+    DEF Pillar Solid {
+      translation -14.8124 -26.6404 -0.09
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(15)"
+    }
+    DEF Pillar Solid {
+      translation -14.9 -13.75 0.74217
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    DEF Pillar Solid {
+      translation -13.31 -13.69 0.74217
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    DEF Pillar Solid {
+      translation -11.96 -13.7 0.74217
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    DEF Pillar Solid {
+      translation -10.77 -13.69 0.74217
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    DEF Pillar Solid {
+      translation -15.74 -13.75 0.74217
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    DEF Pillar Solid {
+      translation -15.74 -15.65 0.74217
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 4
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation -15.32 -15.9 2.75
+      rotation 2.09385e-07 -3.59841e-07 -1 1.5708
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(7)"
+    }
+    Solid {
+      translation -15.32 -14.46 2.75
+      rotation 2.09385e-07 -3.59841e-07 -1 1.5708
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(8)"
+    }
+    Solid {
+      translation -14.01 -27.25 1.92
+      rotation 2.09385e-07 -3.59841e-07 -1 1.5708
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+      ]
+      name "Window(4)"
+    }
+    Solid {
+      translation -14.01 -25.78 1.92
+      rotation 2.09385e-07 -3.59841e-07 -1 1.5708
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+      ]
+      name "Window(4)"
+    }
+    Solid {
+      translation -14.01 -24.32 1.92
+      rotation 2.09385e-07 -3.59841e-07 -1 1.5708
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+      ]
+      name "Window(4)"
+    }
+    Solid {
+      translation -15.23 -25.01 1.92
+      rotation 2.09385e-07 -3.59841e-07 -1 1.5708
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 2.2
+            ]
+          }
+        }
+      ]
+      name "Window(4)"
+    }
+    Solid {
+      translation -15.32 -13.38 2.75
+      rotation 2.09385e-07 -3.59841e-07 -1 1.5708
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(9)"
+    }
+    Solid {
+      translation -13.96 -13.38 2.75
+      rotation 2.09385e-07 -3.59841e-07 -1 1.5708
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(10)"
+    }
+    Solid {
+      translation -12.63 -13.38 2.75
+      rotation 2.09385e-07 -3.59841e-07 -1 1.5708
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(11)"
+    }
+    Solid {
+      translation -11.36 -13.38 2.75
+      rotation 2.09385e-07 -3.59841e-07 -1 1.5708
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              0.5 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(12)"
+    }
+    Solid {
+      translation -12.5 -12.95 2.895
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1 0.1 0.21
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+  ]
+}
+DEF Gym_Aisle Group {
+  children [
+    Solid {
+      translation -19.5 6 0.740865
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(3)"
+    }
+    Solid {
+      translation -19.5 7 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(4)"
+    }
+    Solid {
+      translation -19.5 8 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(5)"
+    }
+    Solid {
+      translation -19.5 9 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(6)"
+    }
+    Solid {
+      translation -19.5 10 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(7)"
+    }
+    Solid {
+      translation -19.5 11 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(8)"
+    }
+    Solid {
+      translation -20 10.5 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(3)"
+    }
+    Solid {
+      translation -20 9.1 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(4)"
+    }
+    Solid {
+      translation -20 7.7 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(5)"
+    }
+    Solid {
+      translation -20 6.3 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(6)"
+    }
+  ]
+}
+DEF Gym_Aisle2 Solid {
+  translation 0 7 0
+  children [
+    Solid {
+      translation -20 6.3 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(6)"
+    }
+    Solid {
+      translation -20 7.7 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(5)"
+    }
+    Solid {
+      translation -20 9.1 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(4)"
+    }
+    Solid {
+      translation -20 10.5 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(3)"
+    }
+    Solid {
+      translation -19.5 11 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(8)"
+    }
+    Solid {
+      translation -19.5 10 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(7)"
+    }
+    Solid {
+      translation -19.5 9 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(6)"
+    }
+    Solid {
+      translation -19.5 8 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(5)"
+    }
+    Solid {
+      translation -19.5 7 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(4)"
+    }
+    Solid {
+      translation -19.5 6 0.740865
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(3)"
+    }
+  ]
+  name "solid(9)"
+}
+DEF Gym_Aisle3 Solid {
+  translation 0 12.7 0
+  children [
+    Solid {
+      translation -20 6.3 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(6)"
+    }
+    Solid {
+      translation -20 7.7 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(5)"
+    }
+    Solid {
+      translation -20 9.1 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(4)"
+    }
+    Solid {
+      translation -20 10.5 1.66
+      rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 -1.5878353071795859
+      children [
+        DEF Window_glass Shape {
+          appearance PBRAppearance {
+            baseColor 0.705882 0.705882 0.705882
+            transparency 0.5
+            roughness 0.1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.6 -0.25
+              0.6 -0.25
+              0.6 0.25
+              -0.6 0.25
+              -0.6 -0.25
+            ]
+            spine [
+              0 0 0
+              0 0 0.01
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_inner Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.65 -0.3
+              0.65 -0.3
+              0.65 0.3
+              -0.65 0.3
+              -0.65 -0.3
+            ]
+            spine [
+              0 0 -0.03
+              0 0 0.08
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+        DEF Window_outer Shape {
+          appearance PBRAppearance {
+            baseColor 0.25098 0.258824 0.266667
+            roughness 1
+            metalness 0
+          }
+          geometry Extrusion {
+            crossSection [
+              -0.75 -0.4
+              0.75 -0.4
+              0.75 0.4
+              -0.75 0.4
+              -0.75 -0.4
+            ]
+            spine [
+              0 0 0
+              0 0 0.05
+            ]
+            scale [
+              1 1.7
+            ]
+          }
+        }
+      ]
+      name "Window(3)"
+    }
+    Solid {
+      translation -19.5 11 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(8)"
+    }
+    Solid {
+      translation -19.5 10 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(7)"
+    }
+    Solid {
+      translation -19.5 9 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(6)"
+    }
+    Solid {
+      translation -19.5 8 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(5)"
+    }
+    Solid {
+      translation -19.5 7 0.75
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(4)"
+    }
+    Solid {
+      translation -19.5 6 0.740865
+      rotation 0 1 0 0.1308996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.317647 0.317647 0.317647
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.5
+            radius 0.05
+          }
+        }
+      ]
+      name "Cylinder(3)"
+    }
+  ]
+  name "solid(10)"
+}
+DEF Stair Solid {
+  translation -5 4.8 0
+  children [
+    Solid {
+      translation -6.5 7.19 0.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1.5 1.5 0.2
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation -6.08 7.19 0.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1.5 1.5 0.2
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation -6.4551 7.19 2.26973
+      rotation 0 1 0 -5.307179586466759e-06
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1.5 1.7 0.05
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation -6.4 7.19 0.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1.3 1.5 0.2
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation -6.5 7.99 0.37
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1 0.1 0.65
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation -6.5 6.39 0.37
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1 0.1 0.65
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+  ]
+  name "solid(14)"
+}
+DEF Stair2 Solid {
+  translation -21.2 -34.02 0
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Solid {
+      translation -6.5 7.19 0.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1.5 1.5 0.2
+          }
+        }
+      ]
+      name "solid(13)"
+    }
+    Solid {
+      translation -6.08 7.19 0.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1.5 1.5 0.2
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation -6.4 7.19 0.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1.3 1.5 0.2
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation -6.5 7.99 0.37
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1 0.1 0.65
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation -6.5 6.39 0.37
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 1 0.1 0.65
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+  ]
+  name "solid(11)"
+}
+Oak {
+  translation 1.44 -23.36 0
+}
+Oak {
+  translation 1.44 -21.68 0
+  name "oak tree(1)"
+}
+Oak {
+  translation 1.44 -19.96 0
+  name "oak tree(2)"
+}
+Oak {
+  translation 1.44 -18.17 0
+  name "oak tree(3)"
+}
+DEF Building_Center Group {
+  children [
+    Building {
+      translation 6.49 -28.51 0
+      rotation 0 0 -1 1.5708
+      name "BuildingCenter2"
+      floorNumber 7
+      corners [
+        0 0
+        0 1
+        6 1
+        6 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    StraightStairs {
+      translation 8.41783 -28.817 -0.03
+      rotation -9.589789999999996e-09 -9.589799999999998e-09 -0.9999999999999998 1.5707953071795862
+      stepSize 0.5 2 0.5
+      stepRise 0.46
+      stringerWidth 0.04
+      stepAppearance VarnishedPine {
+        colorOverride 1 1 1
+        textureTransform TextureTransform {
+          scale 4 4
+        }
+      }
+      stringerAppearance VarnishedPine {
+        colorOverride 1 1 1
+        textureTransform TextureTransform {
+          scale 4 4
+        }
+      }
+      leftRail [
+        StraightStairsRail {
+          run 2.48
+          rise 2.3
+          appearance VarnishedPine {
+            colorOverride 1 1 1
+            textureTransform TextureTransform {
+              scale 4 4
+            }
+          }
+        }
+      ]
+      rightRail [
+        StraightStairsRail {
+          run 2.48
+          rise 2.3
+          appearance VarnishedPine {
+            colorOverride 1 1 1
+            textureTransform TextureTransform {
+              scale 4 4
+            }
+          }
+        }
+      ]
+    }
+    Solid {
+      translation 8.5 -31.79 0.1
+      children [
+        Shape {
+          geometry Box {
+            size 4 7.6 0.1
+          }
+        }
+      ]
+      name "solid(34)"
+    }
+    Solid {
+      translation 8.37 -31.915 0.2
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.75 7.35 0.1
+          }
+        }
+      ]
+      name "solid(35)"
+    }
+    Solid {
+      translation 8.23 -32.0411 0.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.666667 0.666667 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.5 7.1 0.1
+          }
+        }
+      ]
+      name "solid(36)"
+    }
+    Building {
+      translation 7.49305 -30.4077 0.3
+      rotation 0 0 -1 1.5708
+      name "BuildingCenter1"
+      floorHeight 2
+      floorNumber 1
+      corners [
+        0 0
+        0 2
+        6 2
+        6 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation 7.49444 -28.4978 5.3
+      rotation 0 0 -1 1.5708
+      name "BC_3F"
+      floorHeight 1
+      corners [
+        0 0
+        0 3.8
+        6 3.8
+        6 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation 7.49444 -28.4978 8.3
+      rotation 0 0 -1 1.5708
+      name "BC_3F(1)"
+      floorHeight 1
+      corners [
+        0 0
+        0 3.5
+        6 3.5
+        6 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation 7.49444 -28.4978 11.3
+      rotation 0 0 -1 1.5708
+      name "BC_4F"
+      floorNumber 1
+      corners [
+        0 0
+        0 3
+        6 3
+        6 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+    Building {
+      translation 7.49444 -28.4978 14.3
+      rotation 0 0 -1 1.5708
+      name "BC_5F"
+      floorNumber 1
+      corners [
+        0 0
+        0 2.5
+        6 2.5
+        6 0
+      ]
+      wallAppearance PBRAppearance {
+        roughness 1
+      }
+      groundFloor [
+        ""
+        ""
+      ]
+      roofShape "flat roof"
+    }
+  ]
+}
+Robot {
+  children [
+    Solid {
+      children [
+        Solid {
+          translation 0 0 0.1
+          children [
+            Accelerometer {
+              name "acc"
+            }
+            Gyro {
+            }
+            InertialUnit {
+              name "imu"
+            }
+          ]
+          name "imu_link"
+        }
+        Solid {
+          translation 0 0 0.3
+          children [
+            Lidar {
+              translation 0 2 0
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                    baseColor 0 0 0
+                  }
+                  geometry Cylinder {
+                    height 0.05
+                    radius 0.05
+                  }
+                }
+              ]
+              horizontalResolution 1800
+              fieldOfView 6.283
+              verticalFieldOfView 0.52
+              numberOfLayers 16
+              minRange 0.3
+              maxRange 100
+            }
+          ]
+          name "lidar_link"
+        }
+      ]
+      name "base_link"
+    }
+  ]
+  controller "<extern>"
+  controllerArgs [
+    "--port=1235"
+  ]
+}
+Robot {
+  name "Ros2Supervisor"
+  controller "<extern>"
+  supervisor TRUE
+}

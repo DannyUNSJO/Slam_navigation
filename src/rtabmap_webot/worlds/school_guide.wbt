@@ -1,0 +1,102 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/BigGlassTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/StraightRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/nvidia/jetbot/protos/JetBot.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/vehicles/protos/bmw/BmwX5.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projects/robots/pal_robotics/tiago_lite/protos/TiagoLite.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.24301188497043213 -0.9494431504372299 -0.1987534348154645 5.6331113275773514
+  position -7.250117033525706 1.9411665861325507 8.176502022399859
+}
+Background {
+  skyColor [
+    0.5 0.7 1
+  ]
+  backUrl [
+    "ny.png"
+  ]
+  bottomUrl [
+    "nz.png"
+  ]
+  frontUrl [
+    "py.png"
+  ]
+  leftUrl [
+    "nx.png"
+  ]
+  rightUrl [
+    "px.png"
+  ]
+  topUrl [
+    "pz.png"
+  ]
+  luminosity 2
+}
+BigGlassTower {
+  translation 15.1806 0.148241 0.03
+  rotation -0.004279421593620761 0.007412182760234783 0.9999633723779852 2.24093e-06
+}
+TexturedBackgroundLight {
+}
+Solid {
+  children [
+    Shape {
+      appearance Appearance {
+      }
+      geometry Plane {
+      }
+    }
+  ]
+  name "Ground_solid"
+  boundingObject Plane {
+    size 1000000 1000000
+  }
+}
+Solid {
+  translation -1.5651 -0.179642 -1
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "ground_grass_gen_08.png"
+          ]
+        }
+        textureTransform TextureTransform {
+          scale 10000 10000
+        }
+      }
+      geometry Plane {
+        size 100000 100000
+      }
+    }
+  ]
+  name "Ground_picture"
+  boundingObject Plane {
+    size 1000000 1000000
+  }
+}
+StraightRoadSegment {
+}
+
+TiagoLite {
+  translation 2.962153 0.01 0.09
+  rotation -0.006363227570975 -0.002646197037686 -0.999976253206104 0.78447116344273
+  name "Tiago_Lite"
+  controller "<extern>"
+  supervisor TRUE
+  lidarSlot [
+    Lidar {
+      name "hokuyo"
+      horizontalResolution 660
+      fieldOfView 3.14
+      numberOfLayers 1
+      maxRange 6
+    }
+  ]
+}

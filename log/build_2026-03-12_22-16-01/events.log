@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000301] (rtabmap_webot) JobQueued: {'identifier': 'rtabmap_webot', 'dependencies': OrderedDict()}
+[0.000389] (rtabmap_webot) JobStarted: {'identifier': 'rtabmap_webot'}
+[0.098820] (-) TimerEvent: {}
+[0.199286] (-) TimerEvent: {}
+[0.299691] (-) TimerEvent: {}
+[0.400106] (-) TimerEvent: {}
+[0.500486] (-) TimerEvent: {}
+[0.600912] (-) TimerEvent: {}
+[0.701372] (-) TimerEvent: {}
+[0.801819] (-) TimerEvent: {}
+[0.902291] (-) TimerEvent: {}
+[1.002762] (-) TimerEvent: {}
+[1.103290] (-) TimerEvent: {}
+[1.203786] (-) TimerEvent: {}
+[1.304204] (-) TimerEvent: {}
+[1.404587] (-) TimerEvent: {}
+[1.468654] (rtabmap_webot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rtabmap_webot', 'build', '--build-base', '/home/danny/ros2_ws/build/rtabmap_webot/build', 'install', '--record', '/home/danny/ros2_ws/build/rtabmap_webot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/danny/ros2_ws/src/rtabmap_webot', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'danny', 'GIT_ASKPASS': '/home/danny/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/danny', 'OLDPWD': '/home/danny', 'TERM_PROGRAM_VERSION': '1.110.1', 'VSCODE_IPC_HOOK_CLI': '/mnt/wslg/runtime-dir/vscode-ipc-26fe0112-9d3d-47f7-ba90-9442e02cbcb5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/danny/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/danny/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/danny/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/danny/ros2_ws/install:/home/danny/ros2_webots_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'danny', 'NAME': 'DESKTOP-P4MFVOU', 'WSL_INTEROP': '/run/WSL/14_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/danny/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Microsoft VS Code:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/altera/91sp2/quartus/bin:/mnt/d/MinGW/bin:/mnt/d/MATLAB_R2024B/runtime/win64:/mnt/d/MATLAB_R2024B/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/d/Git/cmd:/mnt/d/python 3.13.5/Scripts/:/mnt/d/python 3.13.5/:/mnt/d/Scripts/:/mnt/d/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/home/danny/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/mnt/d/Webots/msys64/mingw64/bin/', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': '172.29.224.1:0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/danny/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ba9fa23f7decd361.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/danny/.vscode-server/data/User/workspaceStorage/4dcaf9f3b59f13f76ba368f9c76405f7/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/mnt/wslg/runtime-dir/vscode-git-6ba78b3f89.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/danny/ros2_ws/install/rtabmap_webot:/home/danny/ros2_webots_ws/install/sg_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'WEBOTS_HOME': '/mnt/d/Webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_IP': '127.0.0.1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/danny/ros2_ws/build/rtabmap_webot', 'PYTHONPATH': '/home/danny/ros2_ws/build/rtabmap_webot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages:/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages:/home/danny/ros2_webots_ws/install/sg_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.504782] (-) TimerEvent: {}
+[1.605298] (-) TimerEvent: {}
+[1.705769] (-) TimerEvent: {}
+[1.806156] (-) TimerEvent: {}
+[1.906619] (-) TimerEvent: {}
+[2.007050] (-) TimerEvent: {}
+[2.038162] (rtabmap_webot) StdoutLine: {'line': b'running egg_info\n'}
+[2.068380] (rtabmap_webot) StdoutLine: {'line': b'writing ../../build/rtabmap_webot/rtabmap_webot.egg-info/PKG-INFO\n'}
+[2.069053] (rtabmap_webot) StdoutLine: {'line': b'writing dependency_links to ../../build/rtabmap_webot/rtabmap_webot.egg-info/dependency_links.txt\n'}
+[2.069536] (rtabmap_webot) StdoutLine: {'line': b'writing entry points to ../../build/rtabmap_webot/rtabmap_webot.egg-info/entry_points.txt\n'}
+[2.070117] (rtabmap_webot) StdoutLine: {'line': b'writing requirements to ../../build/rtabmap_webot/rtabmap_webot.egg-info/requires.txt\n'}
+[2.070310] (rtabmap_webot) StdoutLine: {'line': b'writing top-level names to ../../build/rtabmap_webot/rtabmap_webot.egg-info/top_level.txt\n'}
+[2.107198] (-) TimerEvent: {}
+[2.115609] (rtabmap_webot) StdoutLine: {'line': b"reading manifest file '../../build/rtabmap_webot/rtabmap_webot.egg-info/SOURCES.txt'\n"}
+[2.116220] (rtabmap_webot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.117346] (rtabmap_webot) StdoutLine: {'line': b"writing manifest file '../../build/rtabmap_webot/rtabmap_webot.egg-info/SOURCES.txt'\n"}
+[2.117912] (rtabmap_webot) StdoutLine: {'line': b'running build\n'}
+[2.118228] (rtabmap_webot) StdoutLine: {'line': b'running build_py\n'}
+[2.118521] (rtabmap_webot) StdoutLine: {'line': b'running install\n'}
+[2.126937] (rtabmap_webot) StdoutLine: {'line': b'running install_lib\n'}
+[2.149840] (rtabmap_webot) StdoutLine: {'line': b'running install_data\n'}
+[2.150346] (rtabmap_webot) StdoutLine: {'line': b'copying launch/rtabmap_launch.py -> /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/launch\n'}
+[2.150798] (rtabmap_webot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.172855] (rtabmap_webot) StdoutLine: {'line': b"removing '/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/rtabmap_webot-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[2.173637] (rtabmap_webot) StdoutLine: {'line': b'Copying ../../build/rtabmap_webot/rtabmap_webot.egg-info to /home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/rtabmap_webot-0.0.1-py3.10.egg-info\n'}
+[2.175237] (rtabmap_webot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.207383] (-) TimerEvent: {}
+[2.264342] (rtabmap_webot) StdoutLine: {'line': b'Installing buildings_marker script to /home/danny/ros2_ws/install/rtabmap_webot/lib/rtabmap_webot\n'}
+[2.264930] (rtabmap_webot) StdoutLine: {'line': b"writing list of installed files to '/home/danny/ros2_ws/build/rtabmap_webot/install.log'\n"}
+[2.307532] (-) TimerEvent: {}
+[2.326787] (rtabmap_webot) CommandEnded: {'returncode': 0}
+[2.348114] (rtabmap_webot) JobEnded: {'identifier': 'rtabmap_webot', 'rc': 0}
+[2.349568] (-) EventReactorShutdown: {}

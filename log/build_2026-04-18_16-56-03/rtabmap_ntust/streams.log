@@ -1,0 +1,36 @@
+[2.040s] Invoking command in '/home/danny/ros2_ws/src/rtabmap_ntust': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_ntust/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_ntust build --build-base /home/danny/ros2_ws/build/rtabmap_ntust/build install --record /home/danny/ros2_ws/build/rtabmap_ntust/install.log --single-version-externally-managed install_data
+[2.671s] running egg_info
+[2.710s] writing ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/PKG-INFO
+[2.710s] writing dependency_links to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/dependency_links.txt
+[2.711s] writing entry points to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/entry_points.txt
+[2.711s] writing requirements to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/requires.txt
+[2.711s] writing top-level names to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/top_level.txt
+[2.762s] reading manifest file '../../build/rtabmap_ntust/rtabmap_ntust.egg-info/SOURCES.txt'
+[2.762s] adding license file 'LICENSE'
+[2.763s] writing manifest file '../../build/rtabmap_ntust/rtabmap_ntust.egg-info/SOURCES.txt'
+[2.764s] running build
+[2.764s] running build_py
+[2.764s] running install
+[2.772s] running install_lib
+[2.795s] running install_data
+[2.796s] copying resource/rtabmap_ntust -> /home/danny/ros2_ws/install/rtabmap_ntust/share/ament_index/resource_index/packages
+[2.796s] creating /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/resource
+[2.796s] copying resource/nav2_params_iron.yaml -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/resource/.
+[2.796s] copying resource/default.rviz -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/resource/.
+[2.797s] copying resource/tiago_bringup_webots.urdf -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/resource/.
+[2.797s] copying resource/tiago_webots.urdf -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/resource/.
+[2.797s] copying resource/nav2_params.yaml -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/resource/.
+[2.798s] copying resource/ros2_control.yml -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/resource/.
+[2.798s] copying resource/ros2_control_bringup.yml -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/resource/.
+[2.798s] copying package.xml -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust
+[2.799s] creating /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/launch
+[2.799s] copying launch/rtabmap_launch.py -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/launch
+[2.799s] creating /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/worlds
+[2.800s] copying worlds/NTUST_Map.wbt -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/worlds
+[2.800s] copying worlds/ntust_ros2.wbt -> /home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/worlds
+[2.801s] running install_egg_info
+[2.828s] Copying ../../build/rtabmap_ntust/rtabmap_ntust.egg-info to /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_ntust-0.0.1-py3.10.egg-info
+[2.830s] running install_scripts
+[2.924s] Installing buildings_marker script to /home/danny/ros2_ws/install/rtabmap_ntust/lib/rtabmap_webot
+[2.925s] writing list of installed files to '/home/danny/ros2_ws/build/rtabmap_ntust/install.log'
+[3.069s] Invoked command in '/home/danny/ros2_ws/src/rtabmap_ntust' returned '0': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_ntust/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_ntust build --build-base /home/danny/ros2_ws/build/rtabmap_ntust/build install --record /home/danny/ros2_ws/build/rtabmap_ntust/install.log --single-version-externally-managed install_data

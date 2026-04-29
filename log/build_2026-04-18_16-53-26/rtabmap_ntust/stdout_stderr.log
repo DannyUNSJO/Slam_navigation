@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/rtabmap_ntust/rtabmap_ntust.egg-info
+writing ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/PKG-INFO
+writing dependency_links to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/dependency_links.txt
+writing entry points to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/entry_points.txt
+writing requirements to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/requires.txt
+writing top-level names to ../../build/rtabmap_ntust/rtabmap_ntust.egg-info/top_level.txt
+writing manifest file '../../build/rtabmap_ntust/rtabmap_ntust.egg-info/SOURCES.txt'
+reading manifest file '../../build/rtabmap_ntust/rtabmap_ntust.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rtabmap_ntust/rtabmap_ntust.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/danny/ros2_ws/build/rtabmap_ntust/build
+creating /home/danny/ros2_ws/build/rtabmap_ntust/build/lib
+creating /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_webot
+copying rtabmap_webot/buildings_marker.py -> /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_webot
+copying rtabmap_webot/__init__.py -> /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_webot
+running install
+running install_lib
+creating /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_webot
+copying /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_webot/buildings_marker.py -> /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_webot
+copying /home/danny/ros2_ws/build/rtabmap_ntust/build/lib/rtabmap_webot/__init__.py -> /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_webot
+byte-compiling /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_webot/buildings_marker.py to buildings_marker.cpython-310.pyc
+byte-compiling /home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages/rtabmap_webot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/danny/ros2_ws/install/rtabmap_ntust/share/ament_index
+creating /home/danny/ros2_ws/install/rtabmap_ntust/share/ament_index/resource_index
+creating /home/danny/ros2_ws/install/rtabmap_ntust/share/ament_index/resource_index/packages
+error: can't copy 'resource/rtabmap_ntust': doesn't exist or not a regular file

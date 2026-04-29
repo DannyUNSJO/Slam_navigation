@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<robot name="Tiago_Webots">
+
+    <!-- LiDAR already exists -->
+    <webots>
+        <device reference="hokuyo" type="Lidar">
+            <ros>
+                <enabled>true</enabled>
+                <updateRate>10</updateRate>
+                <topicName>/scan</topicName>
+                <alwaysOn>true</alwaysOn>
+                <frameName>hokuyo</frameName>
+            </ros>
+        </device>
+
+        <!-- Add camera -->
+        <device reference="camera" type="Camera">
+            <ros>
+                <enabled>true</enabled>
+                <updateRate>30</updateRate>
+                <topicName>/camera/image_raw</topicName>
+                <frameName>camera_link</frameName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+
+        <plugin type="webots_ros2_control::Ros2Control" />
+    </webots>
+
+    <!-- ROS2 Control -->
+    <ros2_control name="WebotsControl" type="system">
+        <hardware>
+            <plugin>webots_ros2_control::Ros2ControlSystem</plugin>
+        </hardware>
+        <joint name="wheel_right_joint">
+            <state_interface name="position"/>
+            <command_interface name="velocity"/>
+        </joint>
+        <joint name="wheel_left_joint">
+            <state_interface name="position"/>
+            <command_interface name="velocity"/>
+        </joint>
+    </ros2_control>
+
+    <!-- Base link for TF -->
+    <link name="base_link"/>
+
+    <!-- Camera link -->
+    <link name="camera_link"/>
+    <joint name="camera_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera_link"/>
+        <origin xyz="0.2 0 0.8" rpy="1.5708 0 0"/>
+    </joint>
+
+    <!-- LiDAR link -->
+    <link name="lidar_link"/>
+    <joint name="lidar_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+        <origin xyz="0.15 0 0.5" rpy="0 0 0"/>
+    </joint>
+
+</robot>
