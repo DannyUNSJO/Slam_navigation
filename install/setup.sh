@@ -39,7 +39,7 @@ COLCON_CURRENT_PREFIX="/home/danny/ros2_slam_toolbox_ws/install"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 
 # setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
-COLCON_CURRENT_PREFIX="/home/danny/ros2_fast_lio/install"
+COLCON_CURRENT_PREFIX="/home/danny/ros2_gmapping/install"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 
 

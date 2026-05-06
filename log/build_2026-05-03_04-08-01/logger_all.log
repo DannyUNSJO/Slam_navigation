@@ -1,0 +1,181 @@
+[0.793s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.794s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7976a5984100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7976a5a99000>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7976a5a99000>>, mixin_verb=('build',))
+[4.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.924s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/danny/ros2_ws'
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.049s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.050s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.050s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.050s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.050s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.050s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ntust) by extensions ['ignore', 'ignore_ament_install']
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ntust) by extension 'ignore'
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ntust) by extension 'ignore_ament_install'
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ntust) by extensions ['colcon_pkg']
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ntust) by extension 'colcon_pkg'
+[5.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ntust) by extensions ['colcon_meta']
+[5.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ntust) by extension 'colcon_meta'
+[5.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ntust) by extensions ['ros']
+[5.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ntust) by extension 'ros'
+[5.111s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ntust' with type 'ros.ament_python' and name 'rtabmap_ntust'
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_webot) by extensions ['ignore', 'ignore_ament_install']
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_webot) by extension 'ignore'
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_webot) by extension 'ignore_ament_install'
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_webot) by extensions ['colcon_pkg']
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_webot) by extension 'colcon_pkg'
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_webot) by extensions ['colcon_meta']
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_webot) by extension 'colcon_meta'
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_webot) by extensions ['ros']
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_webot) by extension 'ros'
+[5.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_webot' with type 'ros.ament_python' and name 'rtabmap_webot'
+[5.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.249s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/danny/ros2_gmapping/install
+[5.249s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/danny/ros2_ws/install
+[5.250s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/danny/ros2_slam_toolbox_ws/install
+[5.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 435 installed packages in /opt/ros/humble
+[5.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.394s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ntust' build argument 'cmake_args' from command line to 'None'
+[5.394s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ntust' build argument 'cmake_target' from command line to 'None'
+[5.394s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ntust' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.394s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ntust' build argument 'cmake_clean_cache' from command line to 'False'
+[5.394s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ntust' build argument 'cmake_clean_first' from command line to 'False'
+[5.394s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ntust' build argument 'cmake_force_configure' from command line to 'False'
+[5.394s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ntust' build argument 'ament_cmake_args' from command line to 'None'
+[5.394s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ntust' build argument 'catkin_cmake_args' from command line to 'None'
+[5.394s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ntust' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.394s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_ntust' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/danny/ros2_ws/build/rtabmap_ntust', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/danny/ros2_ws/install/rtabmap_ntust', 'merge_install': False, 'path': '/home/danny/ros2_ws/src/rtabmap_ntust', 'symlink_install': False, 'test_result_base': None}
+[5.395s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_webot' build argument 'cmake_args' from command line to 'None'
+[5.395s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_webot' build argument 'cmake_target' from command line to 'None'
+[5.395s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_webot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.395s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_webot' build argument 'cmake_clean_cache' from command line to 'False'
+[5.395s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_webot' build argument 'cmake_clean_first' from command line to 'False'
+[5.395s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_webot' build argument 'cmake_force_configure' from command line to 'False'
+[5.395s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_webot' build argument 'ament_cmake_args' from command line to 'None'
+[5.395s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_webot' build argument 'catkin_cmake_args' from command line to 'None'
+[5.395s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_webot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.395s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_webot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/danny/ros2_ws/build/rtabmap_webot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/danny/ros2_ws/install/rtabmap_webot', 'merge_install': False, 'path': '/home/danny/ros2_ws/src/rtabmap_webot', 'symlink_install': False, 'test_result_base': None}
+[5.395s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.397s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/danny/ros2_ws/src/rtabmap_ntust' with build type 'ament_python'
+[5.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_ntust', 'ament_prefix_path')
+[5.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/hook/ament_prefix_path.ps1'
+[5.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/hook/ament_prefix_path.dsv'
+[5.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/hook/ament_prefix_path.sh'
+[5.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.501s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/danny/ros2_ws/src/rtabmap_webot' with build type 'ament_python'
+[5.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_webot', 'ament_prefix_path')
+[5.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/hook/ament_prefix_path.ps1'
+[5.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/hook/ament_prefix_path.dsv'
+[5.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/hook/ament_prefix_path.sh'
+[5.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.096s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/danny/ros2_ws/src/rtabmap_ntust'
+[6.097s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.097s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.687s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/danny/ros2_ws/src/rtabmap_webot'
+[6.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/danny/ros2_ws/src/rtabmap_webot': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_webot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_webot build --build-base /home/danny/ros2_ws/build/rtabmap_webot/build install --record /home/danny/ros2_ws/build/rtabmap_webot/install.log --single-version-externally-managed install_data
+[9.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/danny/ros2_ws/src/rtabmap_ntust': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_ntust/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_ntust build --build-base /home/danny/ros2_ws/build/rtabmap_ntust/build install --record /home/danny/ros2_ws/build/rtabmap_ntust/install.log --single-version-externally-managed install_data
+[10.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/danny/ros2_ws/src/rtabmap_ntust' returned '0': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_ntust/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_ntust build --build-base /home/danny/ros2_ws/build/rtabmap_ntust/build install --record /home/danny/ros2_ws/build/rtabmap_ntust/install.log --single-version-externally-managed install_data
+[10.983s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_ntust' for CMake module files
+[10.984s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_ntust' for CMake config files
+[10.985s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_ntust/lib'
+[10.985s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_ntust/bin'
+[10.985s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_ntust/lib/pkgconfig/rtabmap_ntust.pc'
+[10.986s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_ntust/lib/python3.10/site-packages'
+[10.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_ntust', 'pythonpath')
+[10.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/hook/pythonpath.ps1'
+[10.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/hook/pythonpath.dsv'
+[10.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/hook/pythonpath.sh'
+[10.988s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_ntust/bin'
+[10.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtabmap_ntust)
+[10.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/package.ps1'
+[11.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/package.dsv'
+[11.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/package.sh'
+[11.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/package.bash'
+[11.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/danny/ros2_ws/install/rtabmap_ntust/share/rtabmap_ntust/package.zsh'
+[11.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/danny/ros2_ws/install/rtabmap_ntust/share/colcon-core/packages/rtabmap_ntust)
+[11.072s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_webot' for CMake module files
+[11.074s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_webot' for CMake config files
+[11.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/danny/ros2_ws/src/rtabmap_webot' returned '0': PYTHONPATH=/home/danny/ros2_ws/build/rtabmap_webot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtabmap_webot build --build-base /home/danny/ros2_ws/build/rtabmap_webot/build install --record /home/danny/ros2_ws/build/rtabmap_webot/install.log --single-version-externally-managed install_data
+[11.077s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_webot/lib'
+[11.078s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_webot/bin'
+[11.078s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_webot/lib/pkgconfig/rtabmap_webot.pc'
+[11.078s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages'
+[11.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_webot', 'pythonpath')
+[11.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/hook/pythonpath.ps1'
+[11.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/hook/pythonpath.dsv'
+[11.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/hook/pythonpath.sh'
+[11.080s] Level 1:colcon.colcon_core.environment:checking '/home/danny/ros2_ws/install/rtabmap_webot/bin'
+[11.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtabmap_webot)
+[11.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/package.ps1'
+[11.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/package.dsv'
+[11.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/package.sh'
+[11.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/package.bash'
+[11.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/package.zsh'
+[11.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/danny/ros2_ws/install/rtabmap_webot/share/colcon-core/packages/rtabmap_webot)
+[11.086s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.087s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.087s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.087s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.213s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.213s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.213s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.214s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.243s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.243s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.244s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/danny/ros2_ws/install/local_setup.ps1'
+[11.247s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/danny/ros2_ws/install/_local_setup_util_ps1.py'
+[11.253s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/danny/ros2_ws/install/setup.ps1'
+[11.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/danny/ros2_ws/install/local_setup.sh'
+[11.257s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/danny/ros2_ws/install/_local_setup_util_sh.py'
+[11.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/danny/ros2_ws/install/setup.sh'
+[11.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/danny/ros2_ws/install/local_setup.bash'
+[11.261s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/danny/ros2_ws/install/setup.bash'
+[11.263s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/danny/ros2_ws/install/local_setup.zsh'
+[11.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/danny/ros2_ws/install/setup.zsh'

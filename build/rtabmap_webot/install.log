@@ -14,8 +14,6 @@
 /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/package.xml
 /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/launch/rtabmap_launch.py
 /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/worlds/default.wbt
-/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/worlds/school_guide.wbt
-/home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/worlds/sg_NTUST.wbt
 /home/danny/ros2_ws/install/rtabmap_webot/share/rtabmap_webot/worlds/sg_NTUST_HWH.wbt
 /home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/rtabmap_webot-0.0.1-py3.10.egg-info/top_level.txt
 /home/danny/ros2_ws/install/rtabmap_webot/lib/python3.10/site-packages/rtabmap_webot-0.0.1-py3.10.egg-info/dependency_links.txt

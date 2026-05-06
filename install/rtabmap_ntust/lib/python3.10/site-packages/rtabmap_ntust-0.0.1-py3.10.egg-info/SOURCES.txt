@@ -12,7 +12,6 @@ setup.py
 launch/rtabmap_launch.py
 resource/default.rviz
 resource/nav2_params.yaml
-resource/nav2_params_iron.yaml
 resource/ros2_control.yml
 resource/ros2_control_bringup.yml
 resource/rtabmap_ntust

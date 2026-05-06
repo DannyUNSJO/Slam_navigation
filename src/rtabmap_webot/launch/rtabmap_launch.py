@@ -106,7 +106,7 @@ def generate_launch_description():
             'base_link',
             'base_footprint'
         ],
-        output='screen'
+        output='screen'      
     )
 
     # -------------------------------------------------

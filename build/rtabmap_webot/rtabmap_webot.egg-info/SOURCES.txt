@@ -25,6 +25,4 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 worlds/default.wbt
-worlds/school_guide.wbt
-worlds/sg_NTUST.wbt
 worlds/sg_NTUST_HWH.wbt
